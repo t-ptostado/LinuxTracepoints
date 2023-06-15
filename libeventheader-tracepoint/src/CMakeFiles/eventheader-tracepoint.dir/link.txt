@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libeventheader-tracepoint.a CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.o
+/usr/bin/ranlib ../../lib/libeventheader-tracepoint.a

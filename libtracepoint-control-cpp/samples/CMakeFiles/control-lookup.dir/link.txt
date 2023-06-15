@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/control-lookup.dir/control-lookup.cpp.o -o ../../bin/control-lookup  ../../lib/libtracepoint-control.a ../../lib/libtracepoint-decode.a 

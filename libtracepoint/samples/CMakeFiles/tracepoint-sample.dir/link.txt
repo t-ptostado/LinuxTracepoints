@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/tracepoint-sample.dir/tracepoint-sample.c.o -o ../../bin/tracepoint-sample  ../../lib/libtracepoint.a 

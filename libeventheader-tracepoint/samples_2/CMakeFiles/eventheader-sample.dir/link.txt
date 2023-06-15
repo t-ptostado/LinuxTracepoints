@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/eventheader-sample.dir/sample.cpp.o -o ../../bin/eventheader-sample  ../../lib/libeventheader-tracepoint.a ../../lib/libtracepoint.a 

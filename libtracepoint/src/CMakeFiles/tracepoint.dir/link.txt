@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libtracepoint.a CMakeFiles/tracepoint.dir/tracepoint.c.o
+/usr/bin/ranlib ../../lib/libtracepoint.a

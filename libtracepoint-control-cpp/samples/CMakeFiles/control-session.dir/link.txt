@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/control-session.dir/control-session.cpp.o -o ../../bin/control-session  ../../lib/libtracepoint-control.a ../../lib/libtracepoint-decode.a 

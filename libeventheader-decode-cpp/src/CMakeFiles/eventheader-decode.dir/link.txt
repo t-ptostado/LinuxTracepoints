@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libeventheader-decode.a CMakeFiles/eventheader-decode.dir/EventEnumerator.cpp.o CMakeFiles/eventheader-decode.dir/EventFormatter.cpp.o
+/usr/bin/ranlib ../../lib/libeventheader-decode.a

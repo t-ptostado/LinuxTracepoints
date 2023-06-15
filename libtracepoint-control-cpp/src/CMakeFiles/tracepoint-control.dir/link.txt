@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libtracepoint-control.a CMakeFiles/tracepoint-control.dir/TracepointCache.cpp.o CMakeFiles/tracepoint-control.dir/TracepointPath.cpp.o CMakeFiles/tracepoint-control.dir/TracepointSession.cpp.o CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.o
+/usr/bin/ranlib ../../lib/libtracepoint-control.a

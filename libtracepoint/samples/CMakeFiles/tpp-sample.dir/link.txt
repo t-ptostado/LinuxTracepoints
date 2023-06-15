@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/tpp-sample.dir/tpp-sample.c.o -o ../../bin/tpp-sample  ../../lib/libtracepoint.a 

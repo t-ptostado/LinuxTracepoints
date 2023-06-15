@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libtracepoint-decode.a CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.o CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.o CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.o CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.o
+/usr/bin/ranlib ../../lib/libtracepoint-decode.a

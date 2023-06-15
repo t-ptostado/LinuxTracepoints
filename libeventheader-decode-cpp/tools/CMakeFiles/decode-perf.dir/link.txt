@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/decode-perf.dir/decode-perf.cpp.o -o ../../bin/decode-perf  ../../lib/libeventheader-decode.a ../../lib/libtracepoint-decode.a 

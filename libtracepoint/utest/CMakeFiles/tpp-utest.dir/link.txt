@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/tpp-utest.dir/tpp-utest-c.c.o CMakeFiles/tpp-utest.dir/tpp-utest-cpp.cpp.o -o ../../bin/tpp-utest  ../../lib/libtracepoint.a 
