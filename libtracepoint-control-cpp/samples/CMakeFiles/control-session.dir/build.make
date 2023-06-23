@@ -53,10 +53,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
+=======
+CMAKE_SOURCE_DIR = /home/t-ptostado/Project/LinuxTracepoints
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/t-ptostado/Project/LinuxTracepoints
+>>>>>>> b70f098 (t-ptostado)
 
 # Include any dependencies generated for this target.
 include libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/depend.make
@@ -72,6 +79,7 @@ include libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/flags.m
 libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/control-session.cpp.o: libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/flags.make
 libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/control-session.cpp.o: libtracepoint-control-cpp/samples/control-session.cpp
 libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/control-session.cpp.o: libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/compiler_depend.ts
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/control-session.cpp.o"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/control-session.cpp.o -MF CMakeFiles/control-session.dir/control-session.cpp.o.d -o CMakeFiles/control-session.dir/control-session.cpp.o -c /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/samples/control-session.cpp
 
@@ -82,6 +90,18 @@ libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/control-session
 libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/control-session.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/control-session.dir/control-session.cpp.s"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/samples/control-session.cpp -o CMakeFiles/control-session.dir/control-session.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/control-session.cpp.o"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/control-session.cpp.o -MF CMakeFiles/control-session.dir/control-session.cpp.o.d -o CMakeFiles/control-session.dir/control-session.cpp.o -c /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/samples/control-session.cpp
+
+libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/control-session.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/control-session.dir/control-session.cpp.i"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/samples/control-session.cpp > CMakeFiles/control-session.dir/control-session.cpp.i
+
+libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/control-session.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/control-session.dir/control-session.cpp.s"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/samples/control-session.cpp -o CMakeFiles/control-session.dir/control-session.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 
 # Object files for target control-session
 control__session_OBJECTS = \
@@ -95,18 +115,31 @@ bin/control-session: libtracepoint-control-cpp/samples/CMakeFiles/control-sessio
 bin/control-session: lib/libtracepoint-control.a
 bin/control-session: lib/libtracepoint-decode.a
 bin/control-session: libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/control-session"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/samples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/control-session.dir/link.txt --verbose=$(VERBOSE)
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/control-session"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/samples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/control-session.dir/link.txt --verbose=$(VERBOSE)
+>>>>>>> b70f098 (t-ptostado)
 
 # Rule to build all files generated by this target.
 libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/build: bin/control-session
 .PHONY : libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/build
 
 libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/clean:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/samples && $(CMAKE_COMMAND) -P CMakeFiles/control-session.dir/cmake_clean.cmake
 .PHONY : libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/clean
 
 libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/depend:
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/t-ptostado/Project/repos/LinuxTracepoints /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/samples /home/t-ptostado/Project/repos/LinuxTracepoints /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/samples /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/samples && $(CMAKE_COMMAND) -P CMakeFiles/control-session.dir/cmake_clean.cmake
+.PHONY : libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/clean
+
+libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/depend:
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/t-ptostado/Project/LinuxTracepoints /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/samples /home/t-ptostado/Project/LinuxTracepoints /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/samples /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/depend
 

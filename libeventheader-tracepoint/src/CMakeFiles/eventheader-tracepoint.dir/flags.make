@@ -4,7 +4,11 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
+<<<<<<< HEAD
 C_INCLUDES = -I/home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/include -I/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/include
+=======
+C_INCLUDES = -I/home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/include -I/home/t-ptostado/Project/LinuxTracepoints/libtracepoint/include
+>>>>>>> b70f098 (t-ptostado)
 
 C_FLAGS = -Wall -Wextra -Wformat -Wformat-security -Werror=format-security -Wstack-protector -Werror=stack-protector -D_FORTIFY_SOURCE=2
 

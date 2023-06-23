@@ -54,10 +54,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
+=======
+CMAKE_SOURCE_DIR = /home/t-ptostado/Project/LinuxTracepoints
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/t-ptostado/Project/LinuxTracepoints
+>>>>>>> b70f098 (t-ptostado)
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -415,14 +422,24 @@ libtracepoint/utest/clean: libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/c
 libtracepoint/src/CMakeFiles/tracepoint.dir/all:
 	$(MAKE) $(MAKESILENT) -f libtracepoint/src/CMakeFiles/tracepoint.dir/build.make libtracepoint/src/CMakeFiles/tracepoint.dir/depend
 	$(MAKE) $(MAKESILENT) -f libtracepoint/src/CMakeFiles/tracepoint.dir/build.make libtracepoint/src/CMakeFiles/tracepoint.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=30,31 "Built target tracepoint"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=30,31 "Built target tracepoint"
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint/src/CMakeFiles/tracepoint.dir/all
 
 # Build rule for subdir invocation for target.
 libtracepoint/src/CMakeFiles/tracepoint.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/src/CMakeFiles/tracepoint.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/src/CMakeFiles/tracepoint.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint/src/CMakeFiles/tracepoint.dir/rule
 
 # Convenience name for target.
@@ -441,14 +458,24 @@ libtracepoint/src/CMakeFiles/tracepoint.dir/clean:
 libtracepoint/utest/CMakeFiles/tpp-utest.dir/all: libtracepoint/src/CMakeFiles/tracepoint.dir/all
 	$(MAKE) $(MAKESILENT) -f libtracepoint/utest/CMakeFiles/tpp-utest.dir/build.make libtracepoint/utest/CMakeFiles/tpp-utest.dir/depend
 	$(MAKE) $(MAKESILENT) -f libtracepoint/utest/CMakeFiles/tpp-utest.dir/build.make libtracepoint/utest/CMakeFiles/tpp-utest.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=27,28,29 "Built target tpp-utest"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=27,28,29 "Built target tpp-utest"
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint/utest/CMakeFiles/tpp-utest.dir/all
 
 # Build rule for subdir invocation for target.
 libtracepoint/utest/CMakeFiles/tpp-utest.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/utest/CMakeFiles/tpp-utest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/utest/CMakeFiles/tpp-utest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint/utest/CMakeFiles/tpp-utest.dir/rule
 
 # Convenience name for target.
@@ -467,14 +494,24 @@ libtracepoint/utest/CMakeFiles/tpp-utest.dir/clean:
 libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/all: libtracepoint/src/CMakeFiles/tracepoint.dir/all
 	$(MAKE) $(MAKESILENT) -f libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/build.make libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/depend
 	$(MAKE) $(MAKESILENT) -f libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/build.make libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=44,45 "Built target tracepoint-utest"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=44,45 "Built target tracepoint-utest"
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/all
 
 # Build rule for subdir invocation for target.
 libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/rule
 
 # Convenience name for target.
@@ -493,14 +530,24 @@ libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/clean:
 libtracepoint/samples/CMakeFiles/tpp-sample.dir/all: libtracepoint/src/CMakeFiles/tracepoint.dir/all
 	$(MAKE) $(MAKESILENT) -f libtracepoint/samples/CMakeFiles/tpp-sample.dir/build.make libtracepoint/samples/CMakeFiles/tpp-sample.dir/depend
 	$(MAKE) $(MAKESILENT) -f libtracepoint/samples/CMakeFiles/tpp-sample.dir/build.make libtracepoint/samples/CMakeFiles/tpp-sample.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=25,26 "Built target tpp-sample"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=25,26 "Built target tpp-sample"
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint/samples/CMakeFiles/tpp-sample.dir/all
 
 # Build rule for subdir invocation for target.
 libtracepoint/samples/CMakeFiles/tpp-sample.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/samples/CMakeFiles/tpp-sample.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/samples/CMakeFiles/tpp-sample.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint/samples/CMakeFiles/tpp-sample.dir/rule
 
 # Convenience name for target.
@@ -519,14 +566,24 @@ libtracepoint/samples/CMakeFiles/tpp-sample.dir/clean:
 libtracepoint/samples/CMakeFiles/tracepoint-sample.dir/all: libtracepoint/src/CMakeFiles/tracepoint.dir/all
 	$(MAKE) $(MAKESILENT) -f libtracepoint/samples/CMakeFiles/tracepoint-sample.dir/build.make libtracepoint/samples/CMakeFiles/tracepoint-sample.dir/depend
 	$(MAKE) $(MAKESILENT) -f libtracepoint/samples/CMakeFiles/tracepoint-sample.dir/build.make libtracepoint/samples/CMakeFiles/tracepoint-sample.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=42,43 "Built target tracepoint-sample"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=42,43 "Built target tracepoint-sample"
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint/samples/CMakeFiles/tracepoint-sample.dir/all
 
 # Build rule for subdir invocation for target.
 libtracepoint/samples/CMakeFiles/tracepoint-sample.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/samples/CMakeFiles/tracepoint-sample.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/samples/CMakeFiles/tracepoint-sample.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint/samples/CMakeFiles/tracepoint-sample.dir/rule
 
 # Convenience name for target.
@@ -545,14 +602,24 @@ libtracepoint/samples/CMakeFiles/tracepoint-sample.dir/clean:
 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/all:
 	$(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/depend
 	$(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=37,38,39,40,41 "Built target tracepoint-decode"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=37,38,39,40,41 "Built target tracepoint-decode"
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/all
 
 # Build rule for subdir invocation for target.
 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/rule
 
 # Convenience name for target.
@@ -571,14 +638,24 @@ libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/clean:
 libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/all:
 	$(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/build.make libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/depend
 	$(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/build.make libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=23,24 "Built target eventheader-tracepoint"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=23,24 "Built target eventheader-tracepoint"
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/all
 
 # Build rule for subdir invocation for target.
 libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/rule
 
 # Convenience name for target.
@@ -597,14 +674,24 @@ libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/clean:
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/all: libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/all
 	$(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/depend
 	$(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=14,15,16,17,18 "Built target eventheader-interceptor-sample"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=14,15,16,17,18 "Built target eventheader-interceptor-sample"
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/all
 
 # Build rule for subdir invocation for target.
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 7
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/rule
 
 # Convenience name for target.
@@ -624,14 +711,24 @@ libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/all: libtrac
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/all: libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/all
 	$(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/depend
 	$(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=21,22 "Built target eventheader-sample"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=21,22 "Built target eventheader-sample"
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/all
 
 # Build rule for subdir invocation for target.
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/rule
 
 # Convenience name for target.
@@ -651,14 +748,24 @@ libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/all: libtracepoi
 libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/all: libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/all
 	$(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/depend
 	$(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=7,8 "Built target dynamic-sample"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=7,8 "Built target dynamic-sample"
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/all
 
 # Build rule for subdir invocation for target.
 libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/rule
 
 # Convenience name for target.
@@ -678,14 +785,24 @@ libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/all: libtrac
 libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/all: libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/all
 	$(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/build.make libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/depend
 	$(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/build.make libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=19,20 "Built target eventheader-register"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=19,20 "Built target eventheader-register"
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/all
 
 # Build rule for subdir invocation for target.
 libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/rule
 
 # Convenience name for target.
@@ -704,14 +821,24 @@ libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/clean:
 libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/all: libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/all
 	$(MAKE) $(MAKESILENT) -f libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/build.make libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/depend
 	$(MAKE) $(MAKESILENT) -f libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/build.make libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=9,10,11 "Built target eventheader-decode"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=9,10,11 "Built target eventheader-decode"
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/all
 
 # Build rule for subdir invocation for target.
 libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/rule
 
 # Convenience name for target.
@@ -731,14 +858,24 @@ libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/all: li
 libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/all: libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/all
 	$(MAKE) $(MAKESILENT) -f libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/build.make libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/depend
 	$(MAKE) $(MAKESILENT) -f libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/build.make libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=12,13 "Built target eventheader-decode-file"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=12,13 "Built target eventheader-decode-file"
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/all
 
 # Build rule for subdir invocation for target.
 libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 10
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/rule
 
 # Convenience name for target.
@@ -758,14 +895,24 @@ libeventheader-decode-cpp/tools/CMakeFiles/decode-perf.dir/all: libtracepoint-de
 libeventheader-decode-cpp/tools/CMakeFiles/decode-perf.dir/all: libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/all
 	$(MAKE) $(MAKESILENT) -f libeventheader-decode-cpp/tools/CMakeFiles/decode-perf.dir/build.make libeventheader-decode-cpp/tools/CMakeFiles/decode-perf.dir/depend
 	$(MAKE) $(MAKESILENT) -f libeventheader-decode-cpp/tools/CMakeFiles/decode-perf.dir/build.make libeventheader-decode-cpp/tools/CMakeFiles/decode-perf.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=5,6 "Built target decode-perf"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=5,6 "Built target decode-perf"
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libeventheader-decode-cpp/tools/CMakeFiles/decode-perf.dir/all
 
 # Build rule for subdir invocation for target.
 libeventheader-decode-cpp/tools/CMakeFiles/decode-perf.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-decode-cpp/tools/CMakeFiles/decode-perf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 10
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-decode-cpp/tools/CMakeFiles/decode-perf.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libeventheader-decode-cpp/tools/CMakeFiles/decode-perf.dir/rule
 
 # Convenience name for target.
@@ -784,14 +931,24 @@ libeventheader-decode-cpp/tools/CMakeFiles/decode-perf.dir/clean:
 libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/all: libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/all
 	$(MAKE) $(MAKESILENT) -f libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/build.make libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/depend
 	$(MAKE) $(MAKESILENT) -f libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/build.make libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=32,33,34,35,36 "Built target tracepoint-control"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=32,33,34,35,36 "Built target tracepoint-control"
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/all
 
 # Build rule for subdir invocation for target.
 libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 10
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/rule
 
 # Convenience name for target.
@@ -811,14 +968,24 @@ libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/all: libtracepo
 libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/all: libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/all
 	$(MAKE) $(MAKESILENT) -f libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/build.make libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/depend
 	$(MAKE) $(MAKESILENT) -f libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/build.make libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=3,4 "Built target control-session"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=3,4 "Built target control-session"
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/all
 
 # Build rule for subdir invocation for target.
 libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/rule
 
 # Convenience name for target.
@@ -838,14 +1005,24 @@ libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/all: libtracepoi
 libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/all: libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/all
 	$(MAKE) $(MAKESILENT) -f libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/build.make libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/depend
 	$(MAKE) $(MAKESILENT) -f libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/build.make libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=1,2 "Built target control-lookup"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=1,2 "Built target control-lookup"
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/all
 
 # Build rule for subdir invocation for target.
 libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/rule
 
 # Convenience name for target.

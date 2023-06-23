@@ -1,7 +1,13 @@
 libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointPath.cpp.o: \
+<<<<<<< HEAD
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src/TracepointPath.cpp \
  /usr/include/stdc-predef.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/include/tracepoint/TracepointPath.h \
+=======
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src/TracepointPath.cpp \
+ /usr/include/stdc-predef.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/include/tracepoint/TracepointPath.h \
+>>>>>>> b70f098 (t-ptostado)
  /usr/include/c++/11.2.0/string_view /usr/include/c++/11.2.0/iosfwd \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \

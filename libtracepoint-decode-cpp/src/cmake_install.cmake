@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src
+=======
+# Install script for directory: /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src
+>>>>>>> b70f098 (t-ptostado)
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,16 +47,28 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64" TYPE STATIC_LIBRARY FILES "/home/t-ptostado/Project/repos/LinuxTracepoints/lib/libtracepoint-decode.a")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64" TYPE STATIC_LIBRARY FILES "/home/t-ptostado/Project/LinuxTracepoints/lib/libtracepoint-decode.a")
+>>>>>>> b70f098 (t-ptostado)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/tracepoint" TYPE FILE FILES
+<<<<<<< HEAD
     "/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfByteReader.h"
     "/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfDataFile.h"
     "/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventAbi.h"
     "/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventInfo.h"
     "/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventMetadata.h"
+=======
+    "/home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfByteReader.h"
+    "/home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfDataFile.h"
+    "/home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventAbi.h"
+    "/home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventInfo.h"
+    "/home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventMetadata.h"
+>>>>>>> b70f098 (t-ptostado)
     )
 endif()
 
@@ -60,7 +76,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/cmake/tracepoint-decode/tracepoint-decodeTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/cmake/tracepoint-decode/tracepoint-decodeTargets.cmake"
+<<<<<<< HEAD
          "/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src/CMakeFiles/Export/lib64/cmake/tracepoint-decode/tracepoint-decodeTargets.cmake")
+=======
+         "/home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src/CMakeFiles/Export/lib64/cmake/tracepoint-decode/tracepoint-decodeTargets.cmake")
+>>>>>>> b70f098 (t-ptostado)
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/cmake/tracepoint-decode/tracepoint-decodeTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -69,16 +89,27 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/tracepoint-decode" TYPE FILE FILES "/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src/CMakeFiles/Export/lib64/cmake/tracepoint-decode/tracepoint-decodeTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
     file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/tracepoint-decode" TYPE FILE FILES "/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src/CMakeFiles/Export/lib64/cmake/tracepoint-decode/tracepoint-decodeTargets-noconfig.cmake")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/tracepoint-decode" TYPE FILE FILES "/home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src/CMakeFiles/Export/lib64/cmake/tracepoint-decode/tracepoint-decodeTargets.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/tracepoint-decode" TYPE FILE FILES "/home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src/CMakeFiles/Export/lib64/cmake/tracepoint-decode/tracepoint-decodeTargets-noconfig.cmake")
+>>>>>>> b70f098 (t-ptostado)
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/tracepoint-decode" TYPE FILE FILES
+<<<<<<< HEAD
     "/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src/tracepoint-decodeConfig.cmake"
     "/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src/tracepoint-decodeConfigVersion.cmake"
+=======
+    "/home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src/tracepoint-decodeConfig.cmake"
+    "/home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src/tracepoint-decodeConfigVersion.cmake"
+>>>>>>> b70f098 (t-ptostado)
     )
 endif()
 

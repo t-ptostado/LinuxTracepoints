@@ -57,10 +57,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
+=======
+CMAKE_SOURCE_DIR = /home/t-ptostado/Project/LinuxTracepoints
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/t-ptostado/Project/LinuxTracepoints
+>>>>>>> b70f098 (t-ptostado)
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +139,24 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/src//CMakeFiles/progress.marks
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/src/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 0
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/src//CMakeFiles/progress.marks
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/src/clean
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/src/clean
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +165,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/src/preinstall
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/src/preinstall
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/src/preinstall
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/src/preinstall
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : depend
 
 # Convenience name for target.
 libtracepoint/src/CMakeFiles/tracepoint.dir/rule:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/src/CMakeFiles/tracepoint.dir/rule
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/src/CMakeFiles/tracepoint.dir/rule
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint/src/CMakeFiles/tracepoint.dir/rule
 
 # Convenience name for target.
@@ -172,7 +205,11 @@ tracepoint: libtracepoint/src/CMakeFiles/tracepoint.dir/rule
 
 # fast build rule for target.
 tracepoint/fast:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/src/CMakeFiles/tracepoint.dir/build.make libtracepoint/src/CMakeFiles/tracepoint.dir/build
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/src/CMakeFiles/tracepoint.dir/build.make libtracepoint/src/CMakeFiles/tracepoint.dir/build
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : tracepoint/fast
 
 tracepoint.o: tracepoint.c.o
@@ -180,7 +217,11 @@ tracepoint.o: tracepoint.c.o
 
 # target to build an object file
 tracepoint.c.o:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/src/CMakeFiles/tracepoint.dir/build.make libtracepoint/src/CMakeFiles/tracepoint.dir/tracepoint.c.o
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/src/CMakeFiles/tracepoint.dir/build.make libtracepoint/src/CMakeFiles/tracepoint.dir/tracepoint.c.o
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : tracepoint.c.o
 
 tracepoint.i: tracepoint.c.i
@@ -188,7 +229,11 @@ tracepoint.i: tracepoint.c.i
 
 # target to preprocess a source file
 tracepoint.c.i:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/src/CMakeFiles/tracepoint.dir/build.make libtracepoint/src/CMakeFiles/tracepoint.dir/tracepoint.c.i
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/src/CMakeFiles/tracepoint.dir/build.make libtracepoint/src/CMakeFiles/tracepoint.dir/tracepoint.c.i
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : tracepoint.c.i
 
 tracepoint.s: tracepoint.c.s
@@ -196,7 +241,11 @@ tracepoint.s: tracepoint.c.s
 
 # target to generate assembly for a file
 tracepoint.c.s:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/src/CMakeFiles/tracepoint.dir/build.make libtracepoint/src/CMakeFiles/tracepoint.dir/tracepoint.c.s
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/src/CMakeFiles/tracepoint.dir/build.make libtracepoint/src/CMakeFiles/tracepoint.dir/tracepoint.c.s
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : tracepoint.c.s
 
 # Help Target
@@ -226,6 +275,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : cmake_check_build_system
 

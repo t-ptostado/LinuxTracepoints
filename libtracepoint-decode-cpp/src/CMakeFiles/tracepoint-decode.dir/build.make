@@ -53,10 +53,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
+=======
+CMAKE_SOURCE_DIR = /home/t-ptostado/Project/LinuxTracepoints
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/t-ptostado/Project/LinuxTracepoints
+>>>>>>> b70f098 (t-ptostado)
 
 # Include any dependencies generated for this target.
 include libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/depend.make
@@ -72,6 +79,7 @@ include libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/flags.make
 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.o: libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/flags.make
 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.o: libtracepoint-decode-cpp/src/PerfByteReader.cpp
 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.o: libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/compiler_depend.ts
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.o"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.o -MF CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.o.d -o CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.o -c /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src/PerfByteReader.cpp
 
@@ -82,10 +90,23 @@ libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp
 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.s"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src/PerfByteReader.cpp -o CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.o"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.o -MF CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.o.d -o CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.o -c /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src/PerfByteReader.cpp
+
+libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.i"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src/PerfByteReader.cpp > CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.i
+
+libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.s"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src/PerfByteReader.cpp -o CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 
 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.o: libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/flags.make
 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.o: libtracepoint-decode-cpp/src/PerfDataFile.cpp
 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.o: libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/compiler_depend.ts
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.o"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.o -MF CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.o.d -o CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.o -c /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src/PerfDataFile.cpp
 
@@ -96,10 +117,23 @@ libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.i
 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.s"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src/PerfDataFile.cpp -o CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.o"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.o -MF CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.o.d -o CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.o -c /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src/PerfDataFile.cpp
+
+libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.i"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src/PerfDataFile.cpp > CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.i
+
+libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.s"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src/PerfDataFile.cpp -o CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 
 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.o: libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/flags.make
 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.o: libtracepoint-decode-cpp/src/PerfEventAbi.cpp
 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.o: libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/compiler_depend.ts
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.o"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.o -MF CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.o.d -o CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.o -c /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src/PerfEventAbi.cpp
 
@@ -110,10 +144,23 @@ libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.i
 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.s"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src/PerfEventAbi.cpp -o CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.o"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.o -MF CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.o.d -o CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.o -c /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src/PerfEventAbi.cpp
+
+libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.i"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src/PerfEventAbi.cpp > CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.i
+
+libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.s"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src/PerfEventAbi.cpp -o CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 
 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.o: libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/flags.make
 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.o: libtracepoint-decode-cpp/src/PerfEventMetadata.cpp
 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.o: libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/compiler_depend.ts
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.o"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.o -MF CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.o.d -o CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.o -c /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src/PerfEventMetadata.cpp
 
@@ -124,6 +171,18 @@ libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.
 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.s"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src/PerfEventMetadata.cpp -o CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.o"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.o -MF CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.o.d -o CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.o -c /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src/PerfEventMetadata.cpp
+
+libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.i"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src/PerfEventMetadata.cpp > CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.i
+
+libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.s"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src/PerfEventMetadata.cpp -o CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 
 # Object files for target tracepoint-decode
 tracepoint__decode_OBJECTS = \
@@ -141,19 +200,33 @@ lib/libtracepoint-decode.a: libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-d
 lib/libtracepoint-decode.a: libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.o
 lib/libtracepoint-decode.a: libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make
 lib/libtracepoint-decode.a: libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../../lib/libtracepoint-decode.a"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src && $(CMAKE_COMMAND) -P CMakeFiles/tracepoint-decode.dir/cmake_clean_target.cmake
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tracepoint-decode.dir/link.txt --verbose=$(VERBOSE)
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../../lib/libtracepoint-decode.a"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src && $(CMAKE_COMMAND) -P CMakeFiles/tracepoint-decode.dir/cmake_clean_target.cmake
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tracepoint-decode.dir/link.txt --verbose=$(VERBOSE)
+>>>>>>> b70f098 (t-ptostado)
 
 # Rule to build all files generated by this target.
 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build: lib/libtracepoint-decode.a
 .PHONY : libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build
 
 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/clean:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src && $(CMAKE_COMMAND) -P CMakeFiles/tracepoint-decode.dir/cmake_clean.cmake
 .PHONY : libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/clean
 
 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/depend:
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/t-ptostado/Project/repos/LinuxTracepoints /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src /home/t-ptostado/Project/repos/LinuxTracepoints /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src && $(CMAKE_COMMAND) -P CMakeFiles/tracepoint-decode.dir/cmake_clean.cmake
+.PHONY : libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/clean
+
+libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/depend:
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/t-ptostado/Project/LinuxTracepoints /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src /home/t-ptostado/Project/LinuxTracepoints /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/depend
 

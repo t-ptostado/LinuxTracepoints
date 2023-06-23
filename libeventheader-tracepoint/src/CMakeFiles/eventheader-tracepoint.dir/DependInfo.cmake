@@ -8,7 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+<<<<<<< HEAD
   "/home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/src/eventheader-tracepoint.c" "libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.o" "gcc" "libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.o.d"
+=======
+  "/home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/src/eventheader-tracepoint.c" "libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.o" "gcc" "libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.o.d"
+>>>>>>> b70f098 (t-ptostado)
   )
 
 # Targets to which this target links.

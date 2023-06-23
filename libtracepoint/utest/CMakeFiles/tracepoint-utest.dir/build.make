@@ -53,10 +53,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
+=======
+CMAKE_SOURCE_DIR = /home/t-ptostado/Project/LinuxTracepoints
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/t-ptostado/Project/LinuxTracepoints
+>>>>>>> b70f098 (t-ptostado)
 
 # Include any dependencies generated for this target.
 include libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/depend.make
@@ -72,6 +79,7 @@ include libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/flags.make
 libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.o: libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/flags.make
 libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.o: libtracepoint/utest/tracepoint-utest.cpp
 libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.o: libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/compiler_depend.ts
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.o"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/utest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.o -MF CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.o.d -o CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.o -c /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/utest/tracepoint-utest.cpp
 
@@ -82,6 +90,18 @@ libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.i: cmak
 libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.s"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/utest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/utest/tracepoint-utest.cpp -o CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.o"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/utest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.o -MF CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.o.d -o CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.o -c /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/utest/tracepoint-utest.cpp
+
+libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.i"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/utest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/utest/tracepoint-utest.cpp > CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.i
+
+libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.s"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/utest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/utest/tracepoint-utest.cpp -o CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 
 # Object files for target tracepoint-utest
 tracepoint__utest_OBJECTS = \
@@ -94,18 +114,31 @@ bin/tracepoint-utest: libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/tracep
 bin/tracepoint-utest: libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/build.make
 bin/tracepoint-utest: lib/libtracepoint.a
 bin/tracepoint-utest: libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/tracepoint-utest"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/utest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tracepoint-utest.dir/link.txt --verbose=$(VERBOSE)
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/tracepoint-utest"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/utest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tracepoint-utest.dir/link.txt --verbose=$(VERBOSE)
+>>>>>>> b70f098 (t-ptostado)
 
 # Rule to build all files generated by this target.
 libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/build: bin/tracepoint-utest
 .PHONY : libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/build
 
 libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/clean:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/utest && $(CMAKE_COMMAND) -P CMakeFiles/tracepoint-utest.dir/cmake_clean.cmake
 .PHONY : libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/clean
 
 libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/depend:
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/t-ptostado/Project/repos/LinuxTracepoints /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/utest /home/t-ptostado/Project/repos/LinuxTracepoints /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/utest /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/utest && $(CMAKE_COMMAND) -P CMakeFiles/tracepoint-utest.dir/cmake_clean.cmake
+.PHONY : libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/clean
+
+libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/depend:
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/t-ptostado/Project/LinuxTracepoints /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/utest /home/t-ptostado/Project/LinuxTracepoints /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/utest /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/depend
 

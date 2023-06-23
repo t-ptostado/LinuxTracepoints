@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/tools
+=======
+# Install script for directory: /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/tools
+>>>>>>> b70f098 (t-ptostado)
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,7 +53,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/eventheader-register"
          RPATH "")
   endif()
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/t-ptostado/Project/repos/LinuxTracepoints/bin/eventheader-register")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/t-ptostado/Project/LinuxTracepoints/bin/eventheader-register")
+>>>>>>> b70f098 (t-ptostado)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/eventheader-register" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/eventheader-register")
     if(CMAKE_INSTALL_DO_STRIP)

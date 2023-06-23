@@ -53,10 +53,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
+=======
+CMAKE_SOURCE_DIR = /home/t-ptostado/Project/LinuxTracepoints
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/t-ptostado/Project/LinuxTracepoints
+>>>>>>> b70f098 (t-ptostado)
 
 # Include any dependencies generated for this target.
 include libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/depend.make
@@ -72,6 +79,7 @@ include libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sam
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/interceptor-sample.cpp.o: libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/flags.make
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/interceptor-sample.cpp.o: libeventheader-tracepoint/samples/interceptor-sample.cpp
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/interceptor-sample.cpp.o: libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/compiler_depend.ts
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/interceptor-sample.cpp.o"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/interceptor-sample.cpp.o -MF CMakeFiles/eventheader-interceptor-sample.dir/interceptor-sample.cpp.o.d -o CMakeFiles/eventheader-interceptor-sample.dir/interceptor-sample.cpp.o -c /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples/interceptor-sample.cpp
 
@@ -82,10 +90,23 @@ libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/interceptor-sample.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eventheader-interceptor-sample.dir/interceptor-sample.cpp.s"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples/interceptor-sample.cpp -o CMakeFiles/eventheader-interceptor-sample.dir/interceptor-sample.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/interceptor-sample.cpp.o"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/interceptor-sample.cpp.o -MF CMakeFiles/eventheader-interceptor-sample.dir/interceptor-sample.cpp.o.d -o CMakeFiles/eventheader-interceptor-sample.dir/interceptor-sample.cpp.o -c /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples/interceptor-sample.cpp
+
+libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/interceptor-sample.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/eventheader-interceptor-sample.dir/interceptor-sample.cpp.i"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples/interceptor-sample.cpp > CMakeFiles/eventheader-interceptor-sample.dir/interceptor-sample.cpp.i
+
+libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/interceptor-sample.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eventheader-interceptor-sample.dir/interceptor-sample.cpp.s"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples/interceptor-sample.cpp -o CMakeFiles/eventheader-interceptor-sample.dir/interceptor-sample.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.o: libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/flags.make
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.o: libeventheader-tracepoint/samples/TestProviderC.c
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.o: libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/compiler_depend.ts
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.o"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.o -MF CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.o.d -o CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.o -c /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples/TestProviderC.c
 
@@ -96,10 +117,23 @@ libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.s"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples/TestProviderC.c -o CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.o"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.o -MF CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.o.d -o CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.o -c /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples/TestProviderC.c
+
+libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.i"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples/TestProviderC.c > CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.i
+
+libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.s"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples/TestProviderC.c -o CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.s
+>>>>>>> b70f098 (t-ptostado)
 
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderCpp.cpp.o: libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/flags.make
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderCpp.cpp.o: libeventheader-tracepoint/samples/TestProviderCpp.cpp
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderCpp.cpp.o: libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/compiler_depend.ts
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderCpp.cpp.o"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderCpp.cpp.o -MF CMakeFiles/eventheader-interceptor-sample.dir/TestProviderCpp.cpp.o.d -o CMakeFiles/eventheader-interceptor-sample.dir/TestProviderCpp.cpp.o -c /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples/TestProviderCpp.cpp
 
@@ -110,10 +144,23 @@ libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderCpp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eventheader-interceptor-sample.dir/TestProviderCpp.cpp.s"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples/TestProviderCpp.cpp -o CMakeFiles/eventheader-interceptor-sample.dir/TestProviderCpp.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderCpp.cpp.o"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderCpp.cpp.o -MF CMakeFiles/eventheader-interceptor-sample.dir/TestProviderCpp.cpp.o.d -o CMakeFiles/eventheader-interceptor-sample.dir/TestProviderCpp.cpp.o -c /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples/TestProviderCpp.cpp
+
+libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderCpp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/eventheader-interceptor-sample.dir/TestProviderCpp.cpp.i"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples/TestProviderCpp.cpp > CMakeFiles/eventheader-interceptor-sample.dir/TestProviderCpp.cpp.i
+
+libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderCpp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eventheader-interceptor-sample.dir/TestProviderCpp.cpp.s"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples/TestProviderCpp.cpp -o CMakeFiles/eventheader-interceptor-sample.dir/TestProviderCpp.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.o: libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/flags.make
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.o: libeventheader-tracepoint/samples/tracepoint-file.cpp
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.o: libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/compiler_depend.ts
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.o"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.o -MF CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.o.d -o CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.o -c /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples/tracepoint-file.cpp
 
@@ -124,6 +171,18 @@ libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.s"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples/tracepoint-file.cpp -o CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.o"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.o -MF CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.o.d -o CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.o -c /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples/tracepoint-file.cpp
+
+libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.i"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples/tracepoint-file.cpp > CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.i
+
+libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.s"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples/tracepoint-file.cpp -o CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 
 # Object files for target eventheader-interceptor-sample
 eventheader__interceptor__sample_OBJECTS = \
@@ -142,18 +201,31 @@ bin/eventheader-interceptor-sample: libeventheader-tracepoint/samples/CMakeFiles
 bin/eventheader-interceptor-sample: libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make
 bin/eventheader-interceptor-sample: lib/libeventheader-tracepoint.a
 bin/eventheader-interceptor-sample: libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../../bin/eventheader-interceptor-sample"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/eventheader-interceptor-sample.dir/link.txt --verbose=$(VERBOSE)
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../../bin/eventheader-interceptor-sample"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/eventheader-interceptor-sample.dir/link.txt --verbose=$(VERBOSE)
+>>>>>>> b70f098 (t-ptostado)
 
 # Rule to build all files generated by this target.
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build: bin/eventheader-interceptor-sample
 .PHONY : libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build
 
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/clean:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples && $(CMAKE_COMMAND) -P CMakeFiles/eventheader-interceptor-sample.dir/cmake_clean.cmake
 .PHONY : libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/clean
 
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/depend:
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/t-ptostado/Project/repos/LinuxTracepoints /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples /home/t-ptostado/Project/repos/LinuxTracepoints /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples && $(CMAKE_COMMAND) -P CMakeFiles/eventheader-interceptor-sample.dir/cmake_clean.cmake
+.PHONY : libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/clean
+
+libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/depend:
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/t-ptostado/Project/LinuxTracepoints /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples /home/t-ptostado/Project/LinuxTracepoints /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/depend
 

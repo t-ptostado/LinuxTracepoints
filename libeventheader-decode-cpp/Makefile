@@ -57,10 +57,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
+=======
+CMAKE_SOURCE_DIR = /home/t-ptostado/Project/LinuxTracepoints
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/t-ptostado/Project/LinuxTracepoints
+>>>>>>> b70f098 (t-ptostado)
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +139,24 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-decode-cpp//CMakeFiles/progress.marks
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-decode-cpp/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 0
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles /home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp//CMakeFiles/progress.marks
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-decode-cpp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-decode-cpp/clean
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-decode-cpp/clean
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : clean
 
 # The main clean target
@@ -148,17 +165,29 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-decode-cpp/preinstall
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-decode-cpp/preinstall
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-decode-cpp/preinstall
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-decode-cpp/preinstall
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : depend
 
 # Help Target
@@ -184,6 +213,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : cmake_check_build_system
 

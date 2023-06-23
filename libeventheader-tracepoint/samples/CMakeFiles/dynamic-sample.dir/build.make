@@ -53,10 +53,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
+=======
+CMAKE_SOURCE_DIR = /home/t-ptostado/Project/LinuxTracepoints
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/t-ptostado/Project/LinuxTracepoints
+>>>>>>> b70f098 (t-ptostado)
 
 # Include any dependencies generated for this target.
 include libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/depend.make
@@ -72,6 +79,7 @@ include libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/flags.ma
 libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/dynamic-sample.cpp.o: libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/flags.make
 libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/dynamic-sample.cpp.o: libeventheader-tracepoint/samples/dynamic-sample.cpp
 libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/dynamic-sample.cpp.o: libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/compiler_depend.ts
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/dynamic-sample.cpp.o"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/dynamic-sample.cpp.o -MF CMakeFiles/dynamic-sample.dir/dynamic-sample.cpp.o.d -o CMakeFiles/dynamic-sample.dir/dynamic-sample.cpp.o -c /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples/dynamic-sample.cpp
 
@@ -82,6 +90,18 @@ libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/dynamic-sample.c
 libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/dynamic-sample.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dynamic-sample.dir/dynamic-sample.cpp.s"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples/dynamic-sample.cpp -o CMakeFiles/dynamic-sample.dir/dynamic-sample.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/dynamic-sample.cpp.o"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/dynamic-sample.cpp.o -MF CMakeFiles/dynamic-sample.dir/dynamic-sample.cpp.o.d -o CMakeFiles/dynamic-sample.dir/dynamic-sample.cpp.o -c /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples/dynamic-sample.cpp
+
+libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/dynamic-sample.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dynamic-sample.dir/dynamic-sample.cpp.i"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples/dynamic-sample.cpp > CMakeFiles/dynamic-sample.dir/dynamic-sample.cpp.i
+
+libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/dynamic-sample.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dynamic-sample.dir/dynamic-sample.cpp.s"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples/dynamic-sample.cpp -o CMakeFiles/dynamic-sample.dir/dynamic-sample.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 
 # Object files for target dynamic-sample
 dynamic__sample_OBJECTS = \
@@ -95,18 +115,31 @@ bin/dynamic-sample: libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.
 bin/dynamic-sample: lib/libeventheader-tracepoint.a
 bin/dynamic-sample: lib/libtracepoint.a
 bin/dynamic-sample: libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/dynamic-sample"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dynamic-sample.dir/link.txt --verbose=$(VERBOSE)
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/dynamic-sample"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dynamic-sample.dir/link.txt --verbose=$(VERBOSE)
+>>>>>>> b70f098 (t-ptostado)
 
 # Rule to build all files generated by this target.
 libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/build: bin/dynamic-sample
 .PHONY : libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/build
 
 libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/clean:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples && $(CMAKE_COMMAND) -P CMakeFiles/dynamic-sample.dir/cmake_clean.cmake
 .PHONY : libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/clean
 
 libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/depend:
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/t-ptostado/Project/repos/LinuxTracepoints /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples /home/t-ptostado/Project/repos/LinuxTracepoints /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples && $(CMAKE_COMMAND) -P CMakeFiles/dynamic-sample.dir/cmake_clean.cmake
+.PHONY : libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/clean
+
+libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/depend:
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/t-ptostado/Project/LinuxTracepoints /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples /home/t-ptostado/Project/LinuxTracepoints /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/depend
 

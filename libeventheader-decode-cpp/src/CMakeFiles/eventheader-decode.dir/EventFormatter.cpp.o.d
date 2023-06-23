@@ -1,9 +1,17 @@
 libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/EventFormatter.cpp.o: \
+<<<<<<< HEAD
  /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-decode-cpp/src/EventFormatter.cpp \
  /usr/include/stdc-predef.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-decode-cpp/include/eventheader/EventFormatter.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-decode-cpp/include/eventheader/EventEnumerator.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/include/eventheader/eventheader.h \
+=======
+ /home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp/src/EventFormatter.cpp \
+ /usr/include/stdc-predef.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp/include/eventheader/EventFormatter.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp/include/eventheader/EventEnumerator.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/include/eventheader/eventheader.h \
+>>>>>>> b70f098 (t-ptostado)
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stddef.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
@@ -110,16 +118,27 @@ libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/EventFormatter.c
  /usr/include/bits/stdio_lim.h /usr/include/c++/11.2.0/cerrno \
  /usr/include/c++/11.2.0/bits/charconv.h \
  /usr/include/c++/11.2.0/bits/basic_string.tcc \
+<<<<<<< HEAD
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventMetadata.h \
+=======
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventMetadata.h \
+>>>>>>> b70f098 (t-ptostado)
  /usr/include/c++/11.2.0/vector \
  /usr/include/c++/11.2.0/bits/stl_uninitialized.h \
  /usr/include/c++/11.2.0/bits/stl_vector.h \
  /usr/include/c++/11.2.0/bits/stl_bvector.h \
  /usr/include/c++/11.2.0/bits/vector.tcc \
+<<<<<<< HEAD
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventInfo.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfByteReader.h \
  /usr/include/string.h /usr/include/strings.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventAbi.h \
+=======
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventInfo.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfByteReader.h \
+ /usr/include/string.h /usr/include/strings.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventAbi.h \
+>>>>>>> b70f098 (t-ptostado)
  /usr/include/assert.h /usr/include/c++/11.2.0/math.h \
  /usr/include/c++/11.2.0/cmath /usr/include/math.h \
  /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \

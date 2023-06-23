@@ -53,10 +53,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
+=======
+CMAKE_SOURCE_DIR = /home/t-ptostado/Project/LinuxTracepoints
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/t-ptostado/Project/LinuxTracepoints
+>>>>>>> b70f098 (t-ptostado)
 
 # Include any dependencies generated for this target.
 include libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/depend.make
@@ -72,6 +79,7 @@ include libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/flag
 libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.o: libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/flags.make
 libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.o: libeventheader-tracepoint/src/eventheader-tracepoint.c
 libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.o: libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/compiler_depend.ts
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.o"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.o -MF CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.o.d -o CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.o -c /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/src/eventheader-tracepoint.c
 
@@ -82,6 +90,18 @@ libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/eventheader-
 libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.s"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/src/eventheader-tracepoint.c -o CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.o"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.o -MF CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.o.d -o CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.o -c /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/src/eventheader-tracepoint.c
+
+libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.i"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/src/eventheader-tracepoint.c > CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.i
+
+libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.s"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/src/eventheader-tracepoint.c -o CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.s
+>>>>>>> b70f098 (t-ptostado)
 
 # Object files for target eventheader-tracepoint
 eventheader__tracepoint_OBJECTS = \
@@ -93,19 +113,33 @@ eventheader__tracepoint_EXTERNAL_OBJECTS =
 lib/libeventheader-tracepoint.a: libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.o
 lib/libeventheader-tracepoint.a: libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/build.make
 lib/libeventheader-tracepoint.a: libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library ../../lib/libeventheader-tracepoint.a"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/src && $(CMAKE_COMMAND) -P CMakeFiles/eventheader-tracepoint.dir/cmake_clean_target.cmake
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/eventheader-tracepoint.dir/link.txt --verbose=$(VERBOSE)
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library ../../lib/libeventheader-tracepoint.a"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/src && $(CMAKE_COMMAND) -P CMakeFiles/eventheader-tracepoint.dir/cmake_clean_target.cmake
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/eventheader-tracepoint.dir/link.txt --verbose=$(VERBOSE)
+>>>>>>> b70f098 (t-ptostado)
 
 # Rule to build all files generated by this target.
 libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/build: lib/libeventheader-tracepoint.a
 .PHONY : libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/build
 
 libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/clean:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/src && $(CMAKE_COMMAND) -P CMakeFiles/eventheader-tracepoint.dir/cmake_clean.cmake
 .PHONY : libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/clean
 
 libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/depend:
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/t-ptostado/Project/repos/LinuxTracepoints /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/src /home/t-ptostado/Project/repos/LinuxTracepoints /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/src /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/src && $(CMAKE_COMMAND) -P CMakeFiles/eventheader-tracepoint.dir/cmake_clean.cmake
+.PHONY : libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/clean
+
+libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/depend:
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/t-ptostado/Project/LinuxTracepoints /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/src /home/t-ptostado/Project/LinuxTracepoints /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/src /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/depend
 

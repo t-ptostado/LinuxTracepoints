@@ -1,8 +1,15 @@
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.o: \
+<<<<<<< HEAD
  /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples/tracepoint-file.cpp \
  /usr/include/stdc-predef.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/include/tracepoint/tracepoint.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/include/tracepoint/tracepoint-state.h \
+=======
+ /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples/tracepoint-file.cpp \
+ /usr/include/stdc-predef.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/include/tracepoint/tracepoint.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/include/tracepoint/tracepoint-state.h \
+>>>>>>> b70f098 (t-ptostado)
  /usr/include/sys/uio.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
@@ -25,7 +32,11 @@ libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/bits/types/struct_iovec.h \
  /usr/include/bits/uio_lim.h /usr/include/bits/uio-ext.h \
+<<<<<<< HEAD
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/include/tracepoint/tracepoint-impl.h \
+=======
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/include/tracepoint/tracepoint-impl.h \
+>>>>>>> b70f098 (t-ptostado)
  /usr/include/c++/11.2.0/stdlib.h /usr/include/c++/11.2.0/cstdlib \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -37,7 +48,11 @@ libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/
  /usr/include/bits/types/__locale_t.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-float.h /usr/include/c++/11.2.0/bits/std_abs.h \
  /usr/include/assert.h \
+<<<<<<< HEAD
  /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/include/eventheader/eventheader.h \
+=======
+ /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/include/eventheader/eventheader.h \
+>>>>>>> b70f098 (t-ptostado)
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-uintn.h /usr/include/fcntl.h \

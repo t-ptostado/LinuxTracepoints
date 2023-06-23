@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-decode-cpp/samples
+=======
+# Install script for directory: /home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp/samples
+>>>>>>> b70f098 (t-ptostado)
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

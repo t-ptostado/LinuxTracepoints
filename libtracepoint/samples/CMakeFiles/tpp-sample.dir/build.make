@@ -53,10 +53,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
+=======
+CMAKE_SOURCE_DIR = /home/t-ptostado/Project/LinuxTracepoints
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/t-ptostado/Project/LinuxTracepoints
+>>>>>>> b70f098 (t-ptostado)
 
 # Include any dependencies generated for this target.
 include libtracepoint/samples/CMakeFiles/tpp-sample.dir/depend.make
@@ -72,6 +79,7 @@ include libtracepoint/samples/CMakeFiles/tpp-sample.dir/flags.make
 libtracepoint/samples/CMakeFiles/tpp-sample.dir/tpp-sample.c.o: libtracepoint/samples/CMakeFiles/tpp-sample.dir/flags.make
 libtracepoint/samples/CMakeFiles/tpp-sample.dir/tpp-sample.c.o: libtracepoint/samples/tpp-sample.c
 libtracepoint/samples/CMakeFiles/tpp-sample.dir/tpp-sample.c.o: libtracepoint/samples/CMakeFiles/tpp-sample.dir/compiler_depend.ts
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libtracepoint/samples/CMakeFiles/tpp-sample.dir/tpp-sample.c.o"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/samples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libtracepoint/samples/CMakeFiles/tpp-sample.dir/tpp-sample.c.o -MF CMakeFiles/tpp-sample.dir/tpp-sample.c.o.d -o CMakeFiles/tpp-sample.dir/tpp-sample.c.o -c /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/samples/tpp-sample.c
 
@@ -82,6 +90,18 @@ libtracepoint/samples/CMakeFiles/tpp-sample.dir/tpp-sample.c.i: cmake_force
 libtracepoint/samples/CMakeFiles/tpp-sample.dir/tpp-sample.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tpp-sample.dir/tpp-sample.c.s"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/samples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/samples/tpp-sample.c -o CMakeFiles/tpp-sample.dir/tpp-sample.c.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libtracepoint/samples/CMakeFiles/tpp-sample.dir/tpp-sample.c.o"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/samples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libtracepoint/samples/CMakeFiles/tpp-sample.dir/tpp-sample.c.o -MF CMakeFiles/tpp-sample.dir/tpp-sample.c.o.d -o CMakeFiles/tpp-sample.dir/tpp-sample.c.o -c /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/samples/tpp-sample.c
+
+libtracepoint/samples/CMakeFiles/tpp-sample.dir/tpp-sample.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tpp-sample.dir/tpp-sample.c.i"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/samples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/samples/tpp-sample.c > CMakeFiles/tpp-sample.dir/tpp-sample.c.i
+
+libtracepoint/samples/CMakeFiles/tpp-sample.dir/tpp-sample.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tpp-sample.dir/tpp-sample.c.s"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/samples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/samples/tpp-sample.c -o CMakeFiles/tpp-sample.dir/tpp-sample.c.s
+>>>>>>> b70f098 (t-ptostado)
 
 # Object files for target tpp-sample
 tpp__sample_OBJECTS = \
@@ -94,18 +114,31 @@ bin/tpp-sample: libtracepoint/samples/CMakeFiles/tpp-sample.dir/tpp-sample.c.o
 bin/tpp-sample: libtracepoint/samples/CMakeFiles/tpp-sample.dir/build.make
 bin/tpp-sample: lib/libtracepoint.a
 bin/tpp-sample: libtracepoint/samples/CMakeFiles/tpp-sample.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../../bin/tpp-sample"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/samples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tpp-sample.dir/link.txt --verbose=$(VERBOSE)
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../../bin/tpp-sample"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/samples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tpp-sample.dir/link.txt --verbose=$(VERBOSE)
+>>>>>>> b70f098 (t-ptostado)
 
 # Rule to build all files generated by this target.
 libtracepoint/samples/CMakeFiles/tpp-sample.dir/build: bin/tpp-sample
 .PHONY : libtracepoint/samples/CMakeFiles/tpp-sample.dir/build
 
 libtracepoint/samples/CMakeFiles/tpp-sample.dir/clean:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/samples && $(CMAKE_COMMAND) -P CMakeFiles/tpp-sample.dir/cmake_clean.cmake
 .PHONY : libtracepoint/samples/CMakeFiles/tpp-sample.dir/clean
 
 libtracepoint/samples/CMakeFiles/tpp-sample.dir/depend:
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/t-ptostado/Project/repos/LinuxTracepoints /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/samples /home/t-ptostado/Project/repos/LinuxTracepoints /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/samples /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/samples/CMakeFiles/tpp-sample.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/samples && $(CMAKE_COMMAND) -P CMakeFiles/tpp-sample.dir/cmake_clean.cmake
+.PHONY : libtracepoint/samples/CMakeFiles/tpp-sample.dir/clean
+
+libtracepoint/samples/CMakeFiles/tpp-sample.dir/depend:
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/t-ptostado/Project/LinuxTracepoints /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/samples /home/t-ptostado/Project/LinuxTracepoints /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/samples /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/samples/CMakeFiles/tpp-sample.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint/samples/CMakeFiles/tpp-sample.dir/depend
 

@@ -53,10 +53,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
+=======
+CMAKE_SOURCE_DIR = /home/t-ptostado/Project/LinuxTracepoints
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/t-ptostado/Project/LinuxTracepoints
+>>>>>>> b70f098 (t-ptostado)
 
 # Include any dependencies generated for this target.
 include libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/depend.make
@@ -72,6 +79,7 @@ include libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/flag
 libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/eventheader-register.cpp.o: libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/flags.make
 libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/eventheader-register.cpp.o: libeventheader-tracepoint/tools/eventheader-register.cpp
 libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/eventheader-register.cpp.o: libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/compiler_depend.ts
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/eventheader-register.cpp.o"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/tools && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/eventheader-register.cpp.o -MF CMakeFiles/eventheader-register.dir/eventheader-register.cpp.o.d -o CMakeFiles/eventheader-register.dir/eventheader-register.cpp.o -c /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/tools/eventheader-register.cpp
 
@@ -82,6 +90,18 @@ libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/eventheader-
 libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/eventheader-register.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eventheader-register.dir/eventheader-register.cpp.s"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/tools && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/tools/eventheader-register.cpp -o CMakeFiles/eventheader-register.dir/eventheader-register.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/eventheader-register.cpp.o"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/tools && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/eventheader-register.cpp.o -MF CMakeFiles/eventheader-register.dir/eventheader-register.cpp.o.d -o CMakeFiles/eventheader-register.dir/eventheader-register.cpp.o -c /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/tools/eventheader-register.cpp
+
+libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/eventheader-register.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/eventheader-register.dir/eventheader-register.cpp.i"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/tools && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/tools/eventheader-register.cpp > CMakeFiles/eventheader-register.dir/eventheader-register.cpp.i
+
+libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/eventheader-register.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eventheader-register.dir/eventheader-register.cpp.s"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/tools && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/tools/eventheader-register.cpp -o CMakeFiles/eventheader-register.dir/eventheader-register.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 
 # Object files for target eventheader-register
 eventheader__register_OBJECTS = \
@@ -95,18 +115,31 @@ bin/eventheader-register: libeventheader-tracepoint/tools/CMakeFiles/eventheader
 bin/eventheader-register: lib/libeventheader-tracepoint.a
 bin/eventheader-register: lib/libtracepoint.a
 bin/eventheader-register: libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/eventheader-register"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/tools && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/eventheader-register.dir/link.txt --verbose=$(VERBOSE)
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/eventheader-register"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/tools && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/eventheader-register.dir/link.txt --verbose=$(VERBOSE)
+>>>>>>> b70f098 (t-ptostado)
 
 # Rule to build all files generated by this target.
 libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/build: bin/eventheader-register
 .PHONY : libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/build
 
 libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/clean:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/tools && $(CMAKE_COMMAND) -P CMakeFiles/eventheader-register.dir/cmake_clean.cmake
 .PHONY : libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/clean
 
 libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/depend:
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/t-ptostado/Project/repos/LinuxTracepoints /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/tools /home/t-ptostado/Project/repos/LinuxTracepoints /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/tools /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/tools && $(CMAKE_COMMAND) -P CMakeFiles/eventheader-register.dir/cmake_clean.cmake
+.PHONY : libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/clean
+
+libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/depend:
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/t-ptostado/Project/LinuxTracepoints /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/tools /home/t-ptostado/Project/LinuxTracepoints /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/tools /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libeventheader-tracepoint/tools/CMakeFiles/eventheader-register.dir/depend
 

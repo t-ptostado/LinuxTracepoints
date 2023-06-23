@@ -57,10 +57,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
+=======
+CMAKE_SOURCE_DIR = /home/t-ptostado/Project/LinuxTracepoints
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/t-ptostado/Project/LinuxTracepoints
+>>>>>>> b70f098 (t-ptostado)
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +139,15 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles /home/t-ptostado/Project/repos/LinuxTracepoints//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles /home/t-ptostado/Project/LinuxTracepoints//CMakeFiles/progress.marks
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : all
 
 # The main clean target

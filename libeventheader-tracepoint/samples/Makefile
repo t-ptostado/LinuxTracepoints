@@ -57,10 +57,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
+=======
+CMAKE_SOURCE_DIR = /home/t-ptostado/Project/LinuxTracepoints
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/t-ptostado/Project/LinuxTracepoints
+>>>>>>> b70f098 (t-ptostado)
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +139,24 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples//CMakeFiles/progress.marks
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/samples/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 0
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples//CMakeFiles/progress.marks
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/samples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/samples/clean
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/samples/clean
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +165,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/samples/preinstall
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/samples/preinstall
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/samples/preinstall
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/samples/preinstall
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : depend
 
 # Convenience name for target.
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/rule:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/rule
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/rule
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/rule
 
 # Convenience name for target.
@@ -172,12 +205,20 @@ eventheader-interceptor-sample: libeventheader-tracepoint/samples/CMakeFiles/eve
 
 # fast build rule for target.
 eventheader-interceptor-sample/fast:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : eventheader-interceptor-sample/fast
 
 # Convenience name for target.
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/rule:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/rule
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/rule
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/rule
 
 # Convenience name for target.
@@ -186,12 +227,20 @@ eventheader-sample: libeventheader-tracepoint/samples/CMakeFiles/eventheader-sam
 
 # fast build rule for target.
 eventheader-sample/fast:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/build
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/build
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : eventheader-sample/fast
 
 # Convenience name for target.
 libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/rule:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/rule
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/rule
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/rule
 
 # Convenience name for target.
@@ -200,7 +249,11 @@ dynamic-sample: libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/
 
 # fast build rule for target.
 dynamic-sample/fast:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/build
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/build
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : dynamic-sample/fast
 
 TestProviderC.o: TestProviderC.c.o
@@ -208,7 +261,11 @@ TestProviderC.o: TestProviderC.c.o
 
 # target to build an object file
 TestProviderC.c.o:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.o
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.o
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : TestProviderC.c.o
 
 TestProviderC.i: TestProviderC.c.i
@@ -216,7 +273,11 @@ TestProviderC.i: TestProviderC.c.i
 
 # target to preprocess a source file
 TestProviderC.c.i:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.i
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.i
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : TestProviderC.c.i
 
 TestProviderC.s: TestProviderC.c.s
@@ -224,7 +285,11 @@ TestProviderC.s: TestProviderC.c.s
 
 # target to generate assembly for a file
 TestProviderC.c.s:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.s
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.s
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : TestProviderC.c.s
 
 TestProviderCpp.o: TestProviderCpp.cpp.o
@@ -232,7 +297,11 @@ TestProviderCpp.o: TestProviderCpp.cpp.o
 
 # target to build an object file
 TestProviderCpp.cpp.o:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderCpp.cpp.o
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderCpp.cpp.o
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : TestProviderCpp.cpp.o
 
 TestProviderCpp.i: TestProviderCpp.cpp.i
@@ -240,7 +309,11 @@ TestProviderCpp.i: TestProviderCpp.cpp.i
 
 # target to preprocess a source file
 TestProviderCpp.cpp.i:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderCpp.cpp.i
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderCpp.cpp.i
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : TestProviderCpp.cpp.i
 
 TestProviderCpp.s: TestProviderCpp.cpp.s
@@ -248,7 +321,11 @@ TestProviderCpp.s: TestProviderCpp.cpp.s
 
 # target to generate assembly for a file
 TestProviderCpp.cpp.s:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderCpp.cpp.s
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderCpp.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : TestProviderCpp.cpp.s
 
 dynamic-sample.o: dynamic-sample.cpp.o
@@ -256,7 +333,11 @@ dynamic-sample.o: dynamic-sample.cpp.o
 
 # target to build an object file
 dynamic-sample.cpp.o:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/dynamic-sample.cpp.o
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/dynamic-sample.cpp.o
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : dynamic-sample.cpp.o
 
 dynamic-sample.i: dynamic-sample.cpp.i
@@ -264,7 +345,11 @@ dynamic-sample.i: dynamic-sample.cpp.i
 
 # target to preprocess a source file
 dynamic-sample.cpp.i:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/dynamic-sample.cpp.i
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/dynamic-sample.cpp.i
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : dynamic-sample.cpp.i
 
 dynamic-sample.s: dynamic-sample.cpp.s
@@ -272,7 +357,11 @@ dynamic-sample.s: dynamic-sample.cpp.s
 
 # target to generate assembly for a file
 dynamic-sample.cpp.s:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/dynamic-sample.cpp.s
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/dynamic-sample.dir/dynamic-sample.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : dynamic-sample.cpp.s
 
 interceptor-sample.o: interceptor-sample.cpp.o
@@ -280,7 +369,11 @@ interceptor-sample.o: interceptor-sample.cpp.o
 
 # target to build an object file
 interceptor-sample.cpp.o:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/interceptor-sample.cpp.o
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/interceptor-sample.cpp.o
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : interceptor-sample.cpp.o
 
 interceptor-sample.i: interceptor-sample.cpp.i
@@ -288,7 +381,11 @@ interceptor-sample.i: interceptor-sample.cpp.i
 
 # target to preprocess a source file
 interceptor-sample.cpp.i:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/interceptor-sample.cpp.i
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/interceptor-sample.cpp.i
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : interceptor-sample.cpp.i
 
 interceptor-sample.s: interceptor-sample.cpp.s
@@ -296,7 +393,11 @@ interceptor-sample.s: interceptor-sample.cpp.s
 
 # target to generate assembly for a file
 interceptor-sample.cpp.s:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/interceptor-sample.cpp.s
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/interceptor-sample.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : interceptor-sample.cpp.s
 
 sample.o: sample.cpp.o
@@ -304,7 +405,11 @@ sample.o: sample.cpp.o
 
 # target to build an object file
 sample.cpp.o:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/sample.cpp.o
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/sample.cpp.o
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : sample.cpp.o
 
 sample.i: sample.cpp.i
@@ -312,7 +417,11 @@ sample.i: sample.cpp.i
 
 # target to preprocess a source file
 sample.cpp.i:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/sample.cpp.i
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/sample.cpp.i
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : sample.cpp.i
 
 sample.s: sample.cpp.s
@@ -320,7 +429,11 @@ sample.s: sample.cpp.s
 
 # target to generate assembly for a file
 sample.cpp.s:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/sample.cpp.s
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-sample.dir/sample.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : sample.cpp.s
 
 tracepoint-file.o: tracepoint-file.cpp.o
@@ -328,7 +441,11 @@ tracepoint-file.o: tracepoint-file.cpp.o
 
 # target to build an object file
 tracepoint-file.cpp.o:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.o
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.o
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : tracepoint-file.cpp.o
 
 tracepoint-file.i: tracepoint-file.cpp.i
@@ -336,7 +453,11 @@ tracepoint-file.i: tracepoint-file.cpp.i
 
 # target to preprocess a source file
 tracepoint-file.cpp.i:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.i
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.i
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : tracepoint-file.cpp.i
 
 tracepoint-file.s: tracepoint-file.cpp.s
@@ -344,7 +465,11 @@ tracepoint-file.s: tracepoint-file.cpp.s
 
 # target to generate assembly for a file
 tracepoint-file.cpp.s:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.s
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/build.make libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/tracepoint-file.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : tracepoint-file.cpp.s
 
 # Help Target
@@ -391,6 +516,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : cmake_check_build_system
 

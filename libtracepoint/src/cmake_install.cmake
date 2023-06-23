@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/src
+=======
+# Install script for directory: /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/src
+>>>>>>> b70f098 (t-ptostado)
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,14 +47,22 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64" TYPE STATIC_LIBRARY FILES "/home/t-ptostado/Project/repos/LinuxTracepoints/lib/libtracepoint.a")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64" TYPE STATIC_LIBRARY FILES "/home/t-ptostado/Project/LinuxTracepoints/lib/libtracepoint.a")
+>>>>>>> b70f098 (t-ptostado)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/cmake/tracepoint/tracepointTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/cmake/tracepoint/tracepointTargets.cmake"
+<<<<<<< HEAD
          "/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/src/CMakeFiles/Export/lib64/cmake/tracepoint/tracepointTargets.cmake")
+=======
+         "/home/t-ptostado/Project/LinuxTracepoints/libtracepoint/src/CMakeFiles/Export/lib64/cmake/tracepoint/tracepointTargets.cmake")
+>>>>>>> b70f098 (t-ptostado)
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib64/cmake/tracepoint/tracepointTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -59,16 +71,27 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/tracepoint" TYPE FILE FILES "/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/src/CMakeFiles/Export/lib64/cmake/tracepoint/tracepointTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
     file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/tracepoint" TYPE FILE FILES "/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/src/CMakeFiles/Export/lib64/cmake/tracepoint/tracepointTargets-noconfig.cmake")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/tracepoint" TYPE FILE FILES "/home/t-ptostado/Project/LinuxTracepoints/libtracepoint/src/CMakeFiles/Export/lib64/cmake/tracepoint/tracepointTargets.cmake")
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/tracepoint" TYPE FILE FILES "/home/t-ptostado/Project/LinuxTracepoints/libtracepoint/src/CMakeFiles/Export/lib64/cmake/tracepoint/tracepointTargets-noconfig.cmake")
+>>>>>>> b70f098 (t-ptostado)
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib64/cmake/tracepoint" TYPE FILE FILES
+<<<<<<< HEAD
     "/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/src/tracepointConfig.cmake"
     "/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/src/tracepointConfigVersion.cmake"
+=======
+    "/home/t-ptostado/Project/LinuxTracepoints/libtracepoint/src/tracepointConfig.cmake"
+    "/home/t-ptostado/Project/LinuxTracepoints/libtracepoint/src/tracepointConfigVersion.cmake"
+>>>>>>> b70f098 (t-ptostado)
     )
 endif()
 

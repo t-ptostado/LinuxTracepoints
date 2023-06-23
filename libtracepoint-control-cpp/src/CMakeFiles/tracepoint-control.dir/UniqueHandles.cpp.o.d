@@ -1,8 +1,15 @@
 libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.o: \
+<<<<<<< HEAD
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src/UniqueHandles.cpp \
  /usr/include/stdc-predef.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/include/tracepoint/TracepointSession.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/include/tracepoint/TracepointName.h \
+=======
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src/UniqueHandles.cpp \
+ /usr/include/stdc-predef.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/include/tracepoint/TracepointSession.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/include/tracepoint/TracepointName.h \
+>>>>>>> b70f098 (t-ptostado)
  /usr/include/c++/11.2.0/string_view /usr/include/c++/11.2.0/iosfwd \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -53,7 +60,11 @@ libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/UniqueHandles.cp
  /usr/include/c++/11.2.0/bits/ostream_insert.h \
  /usr/include/c++/11.2.0/bits/cxxabi_forced.h \
  /usr/include/c++/11.2.0/bits/string_view.tcc \
+<<<<<<< HEAD
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventMetadata.h \
+=======
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventMetadata.h \
+>>>>>>> b70f098 (t-ptostado)
  /usr/include/c++/11.2.0/vector /usr/include/c++/11.2.0/bits/allocator.h \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
  /usr/include/c++/11.2.0/ext/new_allocator.h /usr/include/c++/11.2.0/new \
@@ -65,8 +76,13 @@ libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/UniqueHandles.cp
  /usr/include/c++/11.2.0/bits/stl_vector.h \
  /usr/include/c++/11.2.0/bits/stl_bvector.h \
  /usr/include/c++/11.2.0/bits/vector.tcc \
+<<<<<<< HEAD
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventInfo.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/include/tracepoint/TracepointCache.h \
+=======
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventInfo.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/include/tracepoint/TracepointCache.h \
+>>>>>>> b70f098 (t-ptostado)
  /usr/include/c++/11.2.0/unordered_map \
  /usr/include/c++/11.2.0/ext/aligned_buffer.h \
  /usr/include/c++/11.2.0/bits/stl_function.h \

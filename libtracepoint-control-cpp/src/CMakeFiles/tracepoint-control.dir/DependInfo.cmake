@@ -8,15 +8,26 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+<<<<<<< HEAD
   "/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src/TracepointCache.cpp" "libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointCache.cpp.o" "gcc" "libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointCache.cpp.o.d"
   "/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src/TracepointPath.cpp" "libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointPath.cpp.o" "gcc" "libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointPath.cpp.o.d"
   "/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src/TracepointSession.cpp" "libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointSession.cpp.o" "gcc" "libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointSession.cpp.o.d"
   "/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src/UniqueHandles.cpp" "libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.o" "gcc" "libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.o.d"
+=======
+  "/home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src/TracepointCache.cpp" "libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointCache.cpp.o" "gcc" "libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointCache.cpp.o.d"
+  "/home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src/TracepointPath.cpp" "libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointPath.cpp.o" "gcc" "libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointPath.cpp.o.d"
+  "/home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src/TracepointSession.cpp" "libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointSession.cpp.o" "gcc" "libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointSession.cpp.o.d"
+  "/home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src/UniqueHandles.cpp" "libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.o" "gcc" "libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.o.d"
+>>>>>>> b70f098 (t-ptostado)
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+<<<<<<< HEAD
   "/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/DependInfo.cmake"
+=======
+  "/home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/DependInfo.cmake"
+>>>>>>> b70f098 (t-ptostado)
   )
 
 # Fortran module output directory.

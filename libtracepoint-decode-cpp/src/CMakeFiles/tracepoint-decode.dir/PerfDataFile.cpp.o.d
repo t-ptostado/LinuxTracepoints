@@ -1,8 +1,15 @@
 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.o: \
+<<<<<<< HEAD
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src/PerfDataFile.cpp \
  /usr/include/stdc-predef.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfDataFile.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfByteReader.h \
+=======
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src/PerfDataFile.cpp \
+ /usr/include/stdc-predef.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfDataFile.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfByteReader.h \
+>>>>>>> b70f098 (t-ptostado)
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -123,9 +130,15 @@ libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.o
  /usr/include/c++/11.2.0/vector /usr/include/c++/11.2.0/bits/stl_vector.h \
  /usr/include/c++/11.2.0/bits/stl_bvector.h \
  /usr/include/c++/11.2.0/bits/vector.tcc \
+<<<<<<< HEAD
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventAbi.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventMetadata.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventInfo.h \
+=======
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventAbi.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventMetadata.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventInfo.h \
+>>>>>>> b70f098 (t-ptostado)
  /usr/include/assert.h /usr/include/errno.h /usr/include/bits/errno.h \
  /usr/include/linux/errno.h /usr/include/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \

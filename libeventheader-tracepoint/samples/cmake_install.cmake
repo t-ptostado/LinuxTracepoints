@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples
+=======
+# Install script for directory: /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples
+>>>>>>> b70f098 (t-ptostado)
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

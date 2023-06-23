@@ -57,10 +57,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
+=======
+CMAKE_SOURCE_DIR = /home/t-ptostado/Project/LinuxTracepoints
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/t-ptostado/Project/LinuxTracepoints
+>>>>>>> b70f098 (t-ptostado)
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +139,24 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-decode-cpp/src//CMakeFiles/progress.marks
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-decode-cpp/src/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 0
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles /home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp/src//CMakeFiles/progress.marks
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-decode-cpp/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-decode-cpp/src/clean
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-decode-cpp/src/clean
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +165,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-decode-cpp/src/preinstall
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-decode-cpp/src/preinstall
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-decode-cpp/src/preinstall
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-decode-cpp/src/preinstall
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : depend
 
 # Convenience name for target.
 libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/rule:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/rule
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/rule
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/rule
 
 # Convenience name for target.
@@ -172,7 +205,11 @@ eventheader-decode: libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.
 
 # fast build rule for target.
 eventheader-decode/fast:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/build.make libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/build
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/build.make libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/build
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : eventheader-decode/fast
 
 EventEnumerator.o: EventEnumerator.cpp.o
@@ -180,7 +217,11 @@ EventEnumerator.o: EventEnumerator.cpp.o
 
 # target to build an object file
 EventEnumerator.cpp.o:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/build.make libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/EventEnumerator.cpp.o
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/build.make libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/EventEnumerator.cpp.o
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : EventEnumerator.cpp.o
 
 EventEnumerator.i: EventEnumerator.cpp.i
@@ -188,7 +229,11 @@ EventEnumerator.i: EventEnumerator.cpp.i
 
 # target to preprocess a source file
 EventEnumerator.cpp.i:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/build.make libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/EventEnumerator.cpp.i
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/build.make libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/EventEnumerator.cpp.i
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : EventEnumerator.cpp.i
 
 EventEnumerator.s: EventEnumerator.cpp.s
@@ -196,7 +241,11 @@ EventEnumerator.s: EventEnumerator.cpp.s
 
 # target to generate assembly for a file
 EventEnumerator.cpp.s:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/build.make libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/EventEnumerator.cpp.s
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/build.make libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/EventEnumerator.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : EventEnumerator.cpp.s
 
 EventFormatter.o: EventFormatter.cpp.o
@@ -204,7 +253,11 @@ EventFormatter.o: EventFormatter.cpp.o
 
 # target to build an object file
 EventFormatter.cpp.o:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/build.make libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/EventFormatter.cpp.o
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/build.make libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/EventFormatter.cpp.o
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : EventFormatter.cpp.o
 
 EventFormatter.i: EventFormatter.cpp.i
@@ -212,7 +265,11 @@ EventFormatter.i: EventFormatter.cpp.i
 
 # target to preprocess a source file
 EventFormatter.cpp.i:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/build.make libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/EventFormatter.cpp.i
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/build.make libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/EventFormatter.cpp.i
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : EventFormatter.cpp.i
 
 EventFormatter.s: EventFormatter.cpp.s
@@ -220,7 +277,11 @@ EventFormatter.s: EventFormatter.cpp.s
 
 # target to generate assembly for a file
 EventFormatter.cpp.s:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/build.make libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/EventFormatter.cpp.s
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/build.make libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/EventFormatter.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : EventFormatter.cpp.s
 
 # Help Target
@@ -253,6 +314,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : cmake_check_build_system
 

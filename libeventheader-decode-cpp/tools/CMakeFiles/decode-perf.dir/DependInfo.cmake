@@ -8,13 +8,22 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+<<<<<<< HEAD
   "/home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-decode-cpp/tools/decode-perf.cpp" "libeventheader-decode-cpp/tools/CMakeFiles/decode-perf.dir/decode-perf.cpp.o" "gcc" "libeventheader-decode-cpp/tools/CMakeFiles/decode-perf.dir/decode-perf.cpp.o.d"
+=======
+  "/home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp/tools/decode-perf.cpp" "libeventheader-decode-cpp/tools/CMakeFiles/decode-perf.dir/decode-perf.cpp.o" "gcc" "libeventheader-decode-cpp/tools/CMakeFiles/decode-perf.dir/decode-perf.cpp.o.d"
+>>>>>>> b70f098 (t-ptostado)
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+<<<<<<< HEAD
   "/home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/DependInfo.cmake"
   "/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/DependInfo.cmake"
+=======
+  "/home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp/src/CMakeFiles/eventheader-decode.dir/DependInfo.cmake"
+  "/home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/DependInfo.cmake"
+>>>>>>> b70f098 (t-ptostado)
   )
 
 # Fortran module output directory.

@@ -8,7 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+<<<<<<< HEAD
   "/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/src/tracepoint.c" "libtracepoint/src/CMakeFiles/tracepoint.dir/tracepoint.c.o" "gcc" "libtracepoint/src/CMakeFiles/tracepoint.dir/tracepoint.c.o.d"
+=======
+  "/home/t-ptostado/Project/LinuxTracepoints/libtracepoint/src/tracepoint.c" "libtracepoint/src/CMakeFiles/tracepoint.dir/tracepoint.c.o" "gcc" "libtracepoint/src/CMakeFiles/tracepoint.dir/tracepoint.c.o.d"
+>>>>>>> b70f098 (t-ptostado)
   )
 
 # Targets to which this target links.

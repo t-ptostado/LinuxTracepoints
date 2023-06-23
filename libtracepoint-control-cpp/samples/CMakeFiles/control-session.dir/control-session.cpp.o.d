@@ -1,8 +1,15 @@
 libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/control-session.cpp.o: \
+<<<<<<< HEAD
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/samples/control-session.cpp \
  /usr/include/stdc-predef.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/include/tracepoint/TracepointSession.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/include/tracepoint/TracepointName.h \
+=======
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/samples/control-session.cpp \
+ /usr/include/stdc-predef.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/include/tracepoint/TracepointSession.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/include/tracepoint/TracepointName.h \
+>>>>>>> b70f098 (t-ptostado)
  /usr/include/c++/11.2.0/string_view /usr/include/c++/11.2.0/iosfwd \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -53,7 +60,11 @@ libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/control-session
  /usr/include/c++/11.2.0/bits/ostream_insert.h \
  /usr/include/c++/11.2.0/bits/cxxabi_forced.h \
  /usr/include/c++/11.2.0/bits/string_view.tcc \
+<<<<<<< HEAD
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventMetadata.h \
+=======
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventMetadata.h \
+>>>>>>> b70f098 (t-ptostado)
  /usr/include/c++/11.2.0/vector /usr/include/c++/11.2.0/bits/allocator.h \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
  /usr/include/c++/11.2.0/ext/new_allocator.h /usr/include/c++/11.2.0/new \
@@ -65,8 +76,13 @@ libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/control-session
  /usr/include/c++/11.2.0/bits/stl_vector.h \
  /usr/include/c++/11.2.0/bits/stl_bvector.h \
  /usr/include/c++/11.2.0/bits/vector.tcc \
+<<<<<<< HEAD
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventInfo.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/include/tracepoint/TracepointCache.h \
+=======
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventInfo.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/include/tracepoint/TracepointCache.h \
+>>>>>>> b70f098 (t-ptostado)
  /usr/include/c++/11.2.0/unordered_map \
  /usr/include/c++/11.2.0/ext/aligned_buffer.h \
  /usr/include/c++/11.2.0/bits/stl_function.h \
@@ -144,5 +160,53 @@ libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/control-session
  /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h /usr/include/string.h \
+<<<<<<< HEAD
  /usr/include/strings.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventAbi.h
+=======
+ /usr/include/strings.h /usr/include/c++/11.2.0/fstream \
+ /usr/include/c++/11.2.0/istream /usr/include/c++/11.2.0/ios \
+ /usr/include/c++/11.2.0/bits/localefwd.h \
+ /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++locale.h \
+ /usr/include/c++/11.2.0/clocale /usr/include/locale.h \
+ /usr/include/bits/locale.h /usr/include/c++/11.2.0/cctype \
+ /usr/include/ctype.h /usr/include/c++/11.2.0/bits/ios_base.h \
+ /usr/include/c++/11.2.0/bits/locale_classes.h \
+ /usr/include/c++/11.2.0/string \
+ /usr/include/c++/11.2.0/bits/basic_string.h \
+ /usr/include/c++/11.2.0/ext/string_conversions.h \
+ /usr/include/c++/11.2.0/cstdlib /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/sys/types.h /usr/include/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/uintn-identity.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /usr/include/c++/11.2.0/bits/std_abs.h /usr/include/c++/11.2.0/cstdio \
+ /usr/include/c++/11.2.0/cerrno /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/bits/types/error_t.h \
+ /usr/include/c++/11.2.0/bits/charconv.h \
+ /usr/include/c++/11.2.0/bits/basic_string.tcc \
+ /usr/include/c++/11.2.0/bits/locale_classes.tcc \
+ /usr/include/c++/11.2.0/system_error \
+ /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/error_constants.h \
+ /usr/include/c++/11.2.0/stdexcept /usr/include/c++/11.2.0/streambuf \
+ /usr/include/c++/11.2.0/bits/streambuf.tcc \
+ /usr/include/c++/11.2.0/bits/basic_ios.h \
+ /usr/include/c++/11.2.0/bits/locale_facets.h \
+ /usr/include/c++/11.2.0/cwctype /usr/include/wctype.h \
+ /usr/include/bits/wctype-wchar.h \
+ /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/ctype_base.h \
+ /usr/include/c++/11.2.0/bits/streambuf_iterator.h \
+ /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+ /usr/include/c++/11.2.0/bits/locale_facets.tcc \
+ /usr/include/c++/11.2.0/bits/basic_ios.tcc \
+ /usr/include/c++/11.2.0/ostream /usr/include/c++/11.2.0/bits/ostream.tcc \
+ /usr/include/c++/11.2.0/bits/istream.tcc \
+ /usr/include/c++/11.2.0/bits/codecvt.h \
+ /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/basic_file.h \
+ /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++io.h \
+ /usr/include/c++/11.2.0/bits/fstream.tcc \
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventAbi.h
+>>>>>>> b70f098 (t-ptostado)

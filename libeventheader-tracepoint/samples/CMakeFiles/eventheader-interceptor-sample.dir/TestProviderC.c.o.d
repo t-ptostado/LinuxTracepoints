@@ -1,9 +1,17 @@
 libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/TestProviderC.c.o: \
+<<<<<<< HEAD
  /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples/TestProviderC.c \
  /usr/include/stdc-predef.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/include/eventheader/TraceLoggingProvider.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/include/eventheader/eventheader-tracepoint.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/include/tracepoint/tracepoint-state.h \
+=======
+ /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples/TestProviderC.c \
+ /usr/include/stdc-predef.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/include/eventheader/TraceLoggingProvider.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/include/eventheader/eventheader-tracepoint.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/include/tracepoint/tracepoint-state.h \
+>>>>>>> b70f098 (t-ptostado)
  /usr/include/sys/uio.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
@@ -26,7 +34,11 @@ libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/bits/types/struct_iovec.h \
  /usr/include/bits/uio_lim.h \
+<<<<<<< HEAD
  /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/include/eventheader/eventheader.h \
+=======
+ /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/include/eventheader/eventheader.h \
+>>>>>>> b70f098 (t-ptostado)
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/bits/wchar.h /usr/include/bits/stdint-uintn.h \
@@ -39,7 +51,11 @@ libeventheader-tracepoint/samples/CMakeFiles/eventheader-interceptor-sample.dir/
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stdbool.h \
  /usr/include/uchar.h /usr/include/bits/types/mbstate_t.h \
  /usr/include/bits/types/__mbstate_t.h \
+<<<<<<< HEAD
  /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/samples/TestProviderCommon.h \
+=======
+ /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/samples/TestProviderCommon.h \
+>>>>>>> b70f098 (t-ptostado)
  /usr/include/arpa/inet.h /usr/include/netinet/in.h \
  /usr/include/sys/socket.h /usr/include/bits/socket.h \
  /usr/include/bits/socket_type.h /usr/include/bits/sockaddr.h \

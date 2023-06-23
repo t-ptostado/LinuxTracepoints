@@ -1,9 +1,17 @@
 libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/decode-file.cpp.o: \
+<<<<<<< HEAD
  /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-decode-cpp/samples/decode-file.cpp \
  /usr/include/stdc-predef.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-decode-cpp/include/eventheader/EventFormatter.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-decode-cpp/include/eventheader/EventEnumerator.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/include/eventheader/eventheader.h \
+=======
+ /home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp/samples/decode-file.cpp \
+ /usr/include/stdc-predef.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp/include/eventheader/EventFormatter.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp/include/eventheader/EventEnumerator.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/include/eventheader/eventheader.h \
+>>>>>>> b70f098 (t-ptostado)
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stddef.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.0/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \

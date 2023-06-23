@@ -8,13 +8,22 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+<<<<<<< HEAD
   "/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/utest/tpp-utest-c.c" "libtracepoint/utest/CMakeFiles/tpp-utest.dir/tpp-utest-c.c.o" "gcc" "libtracepoint/utest/CMakeFiles/tpp-utest.dir/tpp-utest-c.c.o.d"
   "/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/utest/tpp-utest-cpp.cpp" "libtracepoint/utest/CMakeFiles/tpp-utest.dir/tpp-utest-cpp.cpp.o" "gcc" "libtracepoint/utest/CMakeFiles/tpp-utest.dir/tpp-utest-cpp.cpp.o.d"
+=======
+  "/home/t-ptostado/Project/LinuxTracepoints/libtracepoint/utest/tpp-utest-c.c" "libtracepoint/utest/CMakeFiles/tpp-utest.dir/tpp-utest-c.c.o" "gcc" "libtracepoint/utest/CMakeFiles/tpp-utest.dir/tpp-utest-c.c.o.d"
+  "/home/t-ptostado/Project/LinuxTracepoints/libtracepoint/utest/tpp-utest-cpp.cpp" "libtracepoint/utest/CMakeFiles/tpp-utest.dir/tpp-utest-cpp.cpp.o" "gcc" "libtracepoint/utest/CMakeFiles/tpp-utest.dir/tpp-utest-cpp.cpp.o.d"
+>>>>>>> b70f098 (t-ptostado)
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+<<<<<<< HEAD
   "/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/src/CMakeFiles/tracepoint.dir/DependInfo.cmake"
+=======
+  "/home/t-ptostado/Project/LinuxTracepoints/libtracepoint/src/CMakeFiles/tracepoint.dir/DependInfo.cmake"
+>>>>>>> b70f098 (t-ptostado)
   )
 
 # Fortran module output directory.

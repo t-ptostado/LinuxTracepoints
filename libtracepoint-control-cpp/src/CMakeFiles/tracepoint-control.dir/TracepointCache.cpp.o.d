@@ -1,8 +1,15 @@
 libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointCache.cpp.o: \
+<<<<<<< HEAD
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src/TracepointCache.cpp \
  /usr/include/stdc-predef.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/include/tracepoint/TracepointCache.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/include/tracepoint/TracepointName.h \
+=======
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src/TracepointCache.cpp \
+ /usr/include/stdc-predef.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/include/tracepoint/TracepointCache.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/include/tracepoint/TracepointName.h \
+>>>>>>> b70f098 (t-ptostado)
  /usr/include/c++/11.2.0/string_view /usr/include/c++/11.2.0/iosfwd \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -53,7 +60,11 @@ libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointCache.
  /usr/include/c++/11.2.0/bits/ostream_insert.h \
  /usr/include/c++/11.2.0/bits/cxxabi_forced.h \
  /usr/include/c++/11.2.0/bits/string_view.tcc \
+<<<<<<< HEAD
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventMetadata.h \
+=======
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/include/tracepoint/PerfEventMetadata.h \
+>>>>>>> b70f098 (t-ptostado)
  /usr/include/c++/11.2.0/vector /usr/include/c++/11.2.0/bits/allocator.h \
  /usr/include/c++/11.2.0/x86_64-pc-linux-gnu/bits/c++allocator.h \
  /usr/include/c++/11.2.0/ext/new_allocator.h /usr/include/c++/11.2.0/new \
@@ -78,7 +89,11 @@ libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointCache.
  /usr/include/c++/11.2.0/bits/node_handle.h \
  /usr/include/c++/11.2.0/bits/unordered_map.h \
  /usr/include/c++/11.2.0/bits/erase_if.h \
+<<<<<<< HEAD
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/include/tracepoint/TracepointPath.h \
+=======
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/include/tracepoint/TracepointPath.h \
+>>>>>>> b70f098 (t-ptostado)
  /usr/include/assert.h /usr/include/errno.h /usr/include/bits/errno.h \
  /usr/include/linux/errno.h /usr/include/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \

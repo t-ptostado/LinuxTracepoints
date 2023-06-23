@@ -57,10 +57,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
+=======
+CMAKE_SOURCE_DIR = /home/t-ptostado/Project/LinuxTracepoints
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/t-ptostado/Project/LinuxTracepoints
+>>>>>>> b70f098 (t-ptostado)
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +139,24 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src//CMakeFiles/progress.marks
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-decode-cpp/src/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 0
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src//CMakeFiles/progress.marks
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-decode-cpp/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-decode-cpp/src/clean
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-decode-cpp/src/clean
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +165,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-decode-cpp/src/preinstall
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-decode-cpp/src/preinstall
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-decode-cpp/src/preinstall
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-decode-cpp/src/preinstall
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : depend
 
 # Convenience name for target.
 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/rule:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/rule
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/rule
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/rule
 
 # Convenience name for target.
@@ -172,7 +205,11 @@ tracepoint-decode: libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir
 
 # fast build rule for target.
 tracepoint-decode/fast:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : tracepoint-decode/fast
 
 PerfByteReader.o: PerfByteReader.cpp.o
@@ -180,7 +217,11 @@ PerfByteReader.o: PerfByteReader.cpp.o
 
 # target to build an object file
 PerfByteReader.cpp.o:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.o
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.o
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : PerfByteReader.cpp.o
 
 PerfByteReader.i: PerfByteReader.cpp.i
@@ -188,7 +229,11 @@ PerfByteReader.i: PerfByteReader.cpp.i
 
 # target to preprocess a source file
 PerfByteReader.cpp.i:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.i
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.i
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : PerfByteReader.cpp.i
 
 PerfByteReader.s: PerfByteReader.cpp.s
@@ -196,7 +241,11 @@ PerfByteReader.s: PerfByteReader.cpp.s
 
 # target to generate assembly for a file
 PerfByteReader.cpp.s:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.s
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfByteReader.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : PerfByteReader.cpp.s
 
 PerfDataFile.o: PerfDataFile.cpp.o
@@ -204,7 +253,11 @@ PerfDataFile.o: PerfDataFile.cpp.o
 
 # target to build an object file
 PerfDataFile.cpp.o:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.o
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.o
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : PerfDataFile.cpp.o
 
 PerfDataFile.i: PerfDataFile.cpp.i
@@ -212,7 +265,11 @@ PerfDataFile.i: PerfDataFile.cpp.i
 
 # target to preprocess a source file
 PerfDataFile.cpp.i:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.i
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.i
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : PerfDataFile.cpp.i
 
 PerfDataFile.s: PerfDataFile.cpp.s
@@ -220,7 +277,11 @@ PerfDataFile.s: PerfDataFile.cpp.s
 
 # target to generate assembly for a file
 PerfDataFile.cpp.s:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.s
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfDataFile.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : PerfDataFile.cpp.s
 
 PerfEventAbi.o: PerfEventAbi.cpp.o
@@ -228,7 +289,11 @@ PerfEventAbi.o: PerfEventAbi.cpp.o
 
 # target to build an object file
 PerfEventAbi.cpp.o:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.o
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.o
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : PerfEventAbi.cpp.o
 
 PerfEventAbi.i: PerfEventAbi.cpp.i
@@ -236,7 +301,11 @@ PerfEventAbi.i: PerfEventAbi.cpp.i
 
 # target to preprocess a source file
 PerfEventAbi.cpp.i:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.i
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.i
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : PerfEventAbi.cpp.i
 
 PerfEventAbi.s: PerfEventAbi.cpp.s
@@ -244,7 +313,11 @@ PerfEventAbi.s: PerfEventAbi.cpp.s
 
 # target to generate assembly for a file
 PerfEventAbi.cpp.s:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.s
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventAbi.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : PerfEventAbi.cpp.s
 
 PerfEventMetadata.o: PerfEventMetadata.cpp.o
@@ -252,7 +325,11 @@ PerfEventMetadata.o: PerfEventMetadata.cpp.o
 
 # target to build an object file
 PerfEventMetadata.cpp.o:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.o
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.o
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : PerfEventMetadata.cpp.o
 
 PerfEventMetadata.i: PerfEventMetadata.cpp.i
@@ -260,7 +337,11 @@ PerfEventMetadata.i: PerfEventMetadata.cpp.i
 
 # target to preprocess a source file
 PerfEventMetadata.cpp.i:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.i
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.i
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : PerfEventMetadata.cpp.i
 
 PerfEventMetadata.s: PerfEventMetadata.cpp.s
@@ -268,7 +349,11 @@ PerfEventMetadata.s: PerfEventMetadata.cpp.s
 
 # target to generate assembly for a file
 PerfEventMetadata.cpp.s:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.s
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/build.make libtracepoint-decode-cpp/src/CMakeFiles/tracepoint-decode.dir/PerfEventMetadata.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : PerfEventMetadata.cpp.s
 
 # Help Target
@@ -307,6 +392,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : cmake_check_build_system
 

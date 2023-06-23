@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp
+=======
+# Install script for directory: /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp
+>>>>>>> b70f098 (t-ptostado)
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +48,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+<<<<<<< HEAD
   include("/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/src/cmake_install.cmake")
+=======
+  include("/home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/src/cmake_install.cmake")
+>>>>>>> b70f098 (t-ptostado)
 
 endif()
 

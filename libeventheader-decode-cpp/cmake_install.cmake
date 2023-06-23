@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-decode-cpp
+=======
+# Install script for directory: /home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp
+>>>>>>> b70f098 (t-ptostado)
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,9 +48,15 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+<<<<<<< HEAD
   include("/home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-decode-cpp/src/cmake_install.cmake")
   include("/home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-decode-cpp/samples/cmake_install.cmake")
   include("/home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-decode-cpp/tools/cmake_install.cmake")
+=======
+  include("/home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp/src/cmake_install.cmake")
+  include("/home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp/samples/cmake_install.cmake")
+  include("/home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp/tools/cmake_install.cmake")
+>>>>>>> b70f098 (t-ptostado)
 
 endif()
 

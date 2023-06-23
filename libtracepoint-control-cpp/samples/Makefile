@@ -57,10 +57,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
+=======
+CMAKE_SOURCE_DIR = /home/t-ptostado/Project/LinuxTracepoints
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/t-ptostado/Project/LinuxTracepoints
+>>>>>>> b70f098 (t-ptostado)
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +139,24 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/samples//CMakeFiles/progress.marks
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-control-cpp/samples/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 0
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/samples//CMakeFiles/progress.marks
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-control-cpp/samples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-control-cpp/samples/clean
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-control-cpp/samples/clean
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +165,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-control-cpp/samples/preinstall
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-control-cpp/samples/preinstall
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-control-cpp/samples/preinstall
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-control-cpp/samples/preinstall
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : depend
 
 # Convenience name for target.
 libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/rule:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/rule
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/rule
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/rule
 
 # Convenience name for target.
@@ -172,12 +205,20 @@ control-session: libtracepoint-control-cpp/samples/CMakeFiles/control-session.di
 
 # fast build rule for target.
 control-session/fast:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/build.make libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/build
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/build.make libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/build
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : control-session/fast
 
 # Convenience name for target.
 libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/rule:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/rule
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/rule
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/rule
 
 # Convenience name for target.
@@ -186,7 +227,11 @@ control-lookup: libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/
 
 # fast build rule for target.
 control-lookup/fast:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/build.make libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/build
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/build.make libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/build
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : control-lookup/fast
 
 control-lookup.o: control-lookup.cpp.o
@@ -194,7 +239,11 @@ control-lookup.o: control-lookup.cpp.o
 
 # target to build an object file
 control-lookup.cpp.o:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/build.make libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/control-lookup.cpp.o
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/build.make libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/control-lookup.cpp.o
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : control-lookup.cpp.o
 
 control-lookup.i: control-lookup.cpp.i
@@ -202,7 +251,11 @@ control-lookup.i: control-lookup.cpp.i
 
 # target to preprocess a source file
 control-lookup.cpp.i:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/build.make libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/control-lookup.cpp.i
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/build.make libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/control-lookup.cpp.i
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : control-lookup.cpp.i
 
 control-lookup.s: control-lookup.cpp.s
@@ -210,7 +263,11 @@ control-lookup.s: control-lookup.cpp.s
 
 # target to generate assembly for a file
 control-lookup.cpp.s:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/build.make libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/control-lookup.cpp.s
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/build.make libtracepoint-control-cpp/samples/CMakeFiles/control-lookup.dir/control-lookup.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : control-lookup.cpp.s
 
 control-session.o: control-session.cpp.o
@@ -218,7 +275,11 @@ control-session.o: control-session.cpp.o
 
 # target to build an object file
 control-session.cpp.o:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/build.make libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/control-session.cpp.o
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/build.make libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/control-session.cpp.o
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : control-session.cpp.o
 
 control-session.i: control-session.cpp.i
@@ -226,7 +287,11 @@ control-session.i: control-session.cpp.i
 
 # target to preprocess a source file
 control-session.cpp.i:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/build.make libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/control-session.cpp.i
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/build.make libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/control-session.cpp.i
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : control-session.cpp.i
 
 control-session.s: control-session.cpp.s
@@ -234,7 +299,11 @@ control-session.s: control-session.cpp.s
 
 # target to generate assembly for a file
 control-session.cpp.s:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/build.make libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/control-session.cpp.s
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/build.make libtracepoint-control-cpp/samples/CMakeFiles/control-session.dir/control-session.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : control-session.cpp.s
 
 # Help Target
@@ -268,6 +337,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : cmake_check_build_system
 

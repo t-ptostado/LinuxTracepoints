@@ -4,7 +4,11 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
+<<<<<<< HEAD
 CXX_INCLUDES = -I/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/include
+=======
+CXX_INCLUDES = -I/home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/include
+>>>>>>> b70f098 (t-ptostado)
 
 CXX_FLAGS = -Wall -Wextra -Wformat -Wformat-security -Werror=format-security -Wstack-protector -Werror=stack-protector -D_FORTIFY_SOURCE=2
 

@@ -1,8 +1,15 @@
 libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.o: \
+<<<<<<< HEAD
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/utest/tracepoint-utest.cpp \
  /usr/include/stdc-predef.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/include/tracepoint/tracepoint.h \
  /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/include/tracepoint/tracepoint-state.h \
+=======
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/utest/tracepoint-utest.cpp \
+ /usr/include/stdc-predef.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/include/tracepoint/tracepoint.h \
+ /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/include/tracepoint/tracepoint-state.h \
+>>>>>>> b70f098 (t-ptostado)
  /usr/include/sys/uio.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \

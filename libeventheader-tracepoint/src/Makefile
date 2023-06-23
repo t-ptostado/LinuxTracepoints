@@ -57,10 +57,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
+=======
+CMAKE_SOURCE_DIR = /home/t-ptostado/Project/LinuxTracepoints
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/t-ptostado/Project/LinuxTracepoints
+>>>>>>> b70f098 (t-ptostado)
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +139,24 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/src//CMakeFiles/progress.marks
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/src/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 0
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles /home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/src//CMakeFiles/progress.marks
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/src/clean
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/src/clean
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +165,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/src/preinstall
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/src/preinstall
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/src/preinstall
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/src/preinstall
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : depend
 
 # Convenience name for target.
 libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/rule:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/rule
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/rule
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/rule
 
 # Convenience name for target.
@@ -172,7 +205,11 @@ eventheader-tracepoint: libeventheader-tracepoint/src/CMakeFiles/eventheader-tra
 
 # fast build rule for target.
 eventheader-tracepoint/fast:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/build.make libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/build
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/build.make libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/build
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : eventheader-tracepoint/fast
 
 eventheader-tracepoint.o: eventheader-tracepoint.c.o
@@ -180,7 +217,11 @@ eventheader-tracepoint.o: eventheader-tracepoint.c.o
 
 # target to build an object file
 eventheader-tracepoint.c.o:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/build.make libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.o
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/build.make libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.o
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : eventheader-tracepoint.c.o
 
 eventheader-tracepoint.i: eventheader-tracepoint.c.i
@@ -188,7 +229,11 @@ eventheader-tracepoint.i: eventheader-tracepoint.c.i
 
 # target to preprocess a source file
 eventheader-tracepoint.c.i:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/build.make libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.i
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/build.make libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.i
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : eventheader-tracepoint.c.i
 
 eventheader-tracepoint.s: eventheader-tracepoint.c.s
@@ -196,7 +241,11 @@ eventheader-tracepoint.s: eventheader-tracepoint.c.s
 
 # target to generate assembly for a file
 eventheader-tracepoint.c.s:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/build.make libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.s
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/build.make libeventheader-tracepoint/src/CMakeFiles/eventheader-tracepoint.dir/eventheader-tracepoint.c.s
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : eventheader-tracepoint.c.s
 
 # Help Target
@@ -226,6 +275,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : cmake_check_build_system
 

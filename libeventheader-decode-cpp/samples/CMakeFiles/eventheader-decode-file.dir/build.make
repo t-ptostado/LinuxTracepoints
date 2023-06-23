@@ -53,10 +53,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
+=======
+CMAKE_SOURCE_DIR = /home/t-ptostado/Project/LinuxTracepoints
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/t-ptostado/Project/LinuxTracepoints
+>>>>>>> b70f098 (t-ptostado)
 
 # Include any dependencies generated for this target.
 include libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/depend.make
@@ -72,6 +79,7 @@ include libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir
 libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/decode-file.cpp.o: libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/flags.make
 libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/decode-file.cpp.o: libeventheader-decode-cpp/samples/decode-file.cpp
 libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/decode-file.cpp.o: libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/compiler_depend.ts
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/decode-file.cpp.o"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-decode-cpp/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/decode-file.cpp.o -MF CMakeFiles/eventheader-decode-file.dir/decode-file.cpp.o.d -o CMakeFiles/eventheader-decode-file.dir/decode-file.cpp.o -c /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-decode-cpp/samples/decode-file.cpp
 
@@ -82,6 +90,18 @@ libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/decode-
 libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/decode-file.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eventheader-decode-file.dir/decode-file.cpp.s"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-decode-cpp/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-decode-cpp/samples/decode-file.cpp -o CMakeFiles/eventheader-decode-file.dir/decode-file.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/decode-file.cpp.o"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/decode-file.cpp.o -MF CMakeFiles/eventheader-decode-file.dir/decode-file.cpp.o.d -o CMakeFiles/eventheader-decode-file.dir/decode-file.cpp.o -c /home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp/samples/decode-file.cpp
+
+libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/decode-file.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/eventheader-decode-file.dir/decode-file.cpp.i"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp/samples/decode-file.cpp > CMakeFiles/eventheader-decode-file.dir/decode-file.cpp.i
+
+libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/decode-file.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/eventheader-decode-file.dir/decode-file.cpp.s"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp/samples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp/samples/decode-file.cpp -o CMakeFiles/eventheader-decode-file.dir/decode-file.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 
 # Object files for target eventheader-decode-file
 eventheader__decode__file_OBJECTS = \
@@ -95,18 +115,31 @@ bin/eventheader-decode-file: libeventheader-decode-cpp/samples/CMakeFiles/eventh
 bin/eventheader-decode-file: lib/libeventheader-decode.a
 bin/eventheader-decode-file: lib/libtracepoint-decode.a
 bin/eventheader-decode-file: libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/eventheader-decode-file"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-decode-cpp/samples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/eventheader-decode-file.dir/link.txt --verbose=$(VERBOSE)
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/eventheader-decode-file"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp/samples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/eventheader-decode-file.dir/link.txt --verbose=$(VERBOSE)
+>>>>>>> b70f098 (t-ptostado)
 
 # Rule to build all files generated by this target.
 libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/build: bin/eventheader-decode-file
 .PHONY : libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/build
 
 libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/clean:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-decode-cpp/samples && $(CMAKE_COMMAND) -P CMakeFiles/eventheader-decode-file.dir/cmake_clean.cmake
 .PHONY : libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/clean
 
 libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/depend:
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/t-ptostado/Project/repos/LinuxTracepoints /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-decode-cpp/samples /home/t-ptostado/Project/repos/LinuxTracepoints /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-decode-cpp/samples /home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp/samples && $(CMAKE_COMMAND) -P CMakeFiles/eventheader-decode-file.dir/cmake_clean.cmake
+.PHONY : libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/clean
+
+libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/depend:
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/t-ptostado/Project/LinuxTracepoints /home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp/samples /home/t-ptostado/Project/LinuxTracepoints /home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp/samples /home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libeventheader-decode-cpp/samples/CMakeFiles/eventheader-decode-file.dir/depend
 

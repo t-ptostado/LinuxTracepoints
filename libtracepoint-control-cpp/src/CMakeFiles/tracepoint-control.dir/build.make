@@ -53,10 +53,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
+=======
+CMAKE_SOURCE_DIR = /home/t-ptostado/Project/LinuxTracepoints
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/t-ptostado/Project/LinuxTracepoints
+>>>>>>> b70f098 (t-ptostado)
 
 # Include any dependencies generated for this target.
 include libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/depend.make
@@ -72,6 +79,7 @@ include libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/flags.ma
 libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointCache.cpp.o: libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/flags.make
 libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointCache.cpp.o: libtracepoint-control-cpp/src/TracepointCache.cpp
 libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointCache.cpp.o: libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/compiler_depend.ts
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointCache.cpp.o"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointCache.cpp.o -MF CMakeFiles/tracepoint-control.dir/TracepointCache.cpp.o.d -o CMakeFiles/tracepoint-control.dir/TracepointCache.cpp.o -c /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src/TracepointCache.cpp
 
@@ -82,10 +90,23 @@ libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointCache.
 libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointCache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tracepoint-control.dir/TracepointCache.cpp.s"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src/TracepointCache.cpp -o CMakeFiles/tracepoint-control.dir/TracepointCache.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointCache.cpp.o"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointCache.cpp.o -MF CMakeFiles/tracepoint-control.dir/TracepointCache.cpp.o.d -o CMakeFiles/tracepoint-control.dir/TracepointCache.cpp.o -c /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src/TracepointCache.cpp
+
+libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointCache.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tracepoint-control.dir/TracepointCache.cpp.i"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src/TracepointCache.cpp > CMakeFiles/tracepoint-control.dir/TracepointCache.cpp.i
+
+libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointCache.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tracepoint-control.dir/TracepointCache.cpp.s"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src/TracepointCache.cpp -o CMakeFiles/tracepoint-control.dir/TracepointCache.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 
 libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointPath.cpp.o: libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/flags.make
 libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointPath.cpp.o: libtracepoint-control-cpp/src/TracepointPath.cpp
 libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointPath.cpp.o: libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/compiler_depend.ts
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointPath.cpp.o"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointPath.cpp.o -MF CMakeFiles/tracepoint-control.dir/TracepointPath.cpp.o.d -o CMakeFiles/tracepoint-control.dir/TracepointPath.cpp.o -c /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src/TracepointPath.cpp
 
@@ -96,10 +117,23 @@ libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointPath.c
 libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointPath.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tracepoint-control.dir/TracepointPath.cpp.s"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src/TracepointPath.cpp -o CMakeFiles/tracepoint-control.dir/TracepointPath.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointPath.cpp.o"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointPath.cpp.o -MF CMakeFiles/tracepoint-control.dir/TracepointPath.cpp.o.d -o CMakeFiles/tracepoint-control.dir/TracepointPath.cpp.o -c /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src/TracepointPath.cpp
+
+libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointPath.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tracepoint-control.dir/TracepointPath.cpp.i"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src/TracepointPath.cpp > CMakeFiles/tracepoint-control.dir/TracepointPath.cpp.i
+
+libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointPath.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tracepoint-control.dir/TracepointPath.cpp.s"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src/TracepointPath.cpp -o CMakeFiles/tracepoint-control.dir/TracepointPath.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 
 libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointSession.cpp.o: libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/flags.make
 libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointSession.cpp.o: libtracepoint-control-cpp/src/TracepointSession.cpp
 libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointSession.cpp.o: libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/compiler_depend.ts
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointSession.cpp.o"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointSession.cpp.o -MF CMakeFiles/tracepoint-control.dir/TracepointSession.cpp.o.d -o CMakeFiles/tracepoint-control.dir/TracepointSession.cpp.o -c /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src/TracepointSession.cpp
 
@@ -110,10 +144,23 @@ libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointSessio
 libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointSession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tracepoint-control.dir/TracepointSession.cpp.s"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src/TracepointSession.cpp -o CMakeFiles/tracepoint-control.dir/TracepointSession.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointSession.cpp.o"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointSession.cpp.o -MF CMakeFiles/tracepoint-control.dir/TracepointSession.cpp.o.d -o CMakeFiles/tracepoint-control.dir/TracepointSession.cpp.o -c /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src/TracepointSession.cpp
+
+libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointSession.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tracepoint-control.dir/TracepointSession.cpp.i"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src/TracepointSession.cpp > CMakeFiles/tracepoint-control.dir/TracepointSession.cpp.i
+
+libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/TracepointSession.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tracepoint-control.dir/TracepointSession.cpp.s"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src/TracepointSession.cpp -o CMakeFiles/tracepoint-control.dir/TracepointSession.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 
 libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.o: libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/flags.make
 libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.o: libtracepoint-control-cpp/src/UniqueHandles.cpp
 libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.o: libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/compiler_depend.ts
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.o"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.o -MF CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.o.d -o CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.o -c /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src/UniqueHandles.cpp
 
@@ -124,6 +171,18 @@ libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/UniqueHandles.cp
 libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.s"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src/UniqueHandles.cpp -o CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.o"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.o -MF CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.o.d -o CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.o -c /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src/UniqueHandles.cpp
+
+libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.i"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src/UniqueHandles.cpp > CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.i
+
+libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.s"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src/UniqueHandles.cpp -o CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 
 # Object files for target tracepoint-control
 tracepoint__control_OBJECTS = \
@@ -141,19 +200,33 @@ lib/libtracepoint-control.a: libtracepoint-control-cpp/src/CMakeFiles/tracepoint
 lib/libtracepoint-control.a: libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/UniqueHandles.cpp.o
 lib/libtracepoint-control.a: libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/build.make
 lib/libtracepoint-control.a: libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../../lib/libtracepoint-control.a"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src && $(CMAKE_COMMAND) -P CMakeFiles/tracepoint-control.dir/cmake_clean_target.cmake
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tracepoint-control.dir/link.txt --verbose=$(VERBOSE)
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../../lib/libtracepoint-control.a"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src && $(CMAKE_COMMAND) -P CMakeFiles/tracepoint-control.dir/cmake_clean_target.cmake
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tracepoint-control.dir/link.txt --verbose=$(VERBOSE)
+>>>>>>> b70f098 (t-ptostado)
 
 # Rule to build all files generated by this target.
 libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/build: lib/libtracepoint-control.a
 .PHONY : libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/build
 
 libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/clean:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src && $(CMAKE_COMMAND) -P CMakeFiles/tracepoint-control.dir/cmake_clean.cmake
 .PHONY : libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/clean
 
 libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/depend:
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/t-ptostado/Project/repos/LinuxTracepoints /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src /home/t-ptostado/Project/repos/LinuxTracepoints /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src && $(CMAKE_COMMAND) -P CMakeFiles/tracepoint-control.dir/cmake_clean.cmake
+.PHONY : libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/clean
+
+libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/depend:
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/t-ptostado/Project/LinuxTracepoints /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src /home/t-ptostado/Project/LinuxTracepoints /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src /home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint-control-cpp/src/CMakeFiles/tracepoint-control.dir/depend
 

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /home/t-ptostado/Project/repos/LinuxTracepoints
+=======
+# Install script for directory: /home/t-ptostado/Project/LinuxTracepoints
+>>>>>>> b70f098 (t-ptostado)
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,11 +48,19 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+<<<<<<< HEAD
   include("/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/cmake_install.cmake")
   include("/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-decode-cpp/cmake_install.cmake")
   include("/home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-tracepoint/cmake_install.cmake")
   include("/home/t-ptostado/Project/repos/LinuxTracepoints/libeventheader-decode-cpp/cmake_install.cmake")
   include("/home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint-control-cpp/cmake_install.cmake")
+=======
+  include("/home/t-ptostado/Project/LinuxTracepoints/libtracepoint/cmake_install.cmake")
+  include("/home/t-ptostado/Project/LinuxTracepoints/libtracepoint-decode-cpp/cmake_install.cmake")
+  include("/home/t-ptostado/Project/LinuxTracepoints/libeventheader-tracepoint/cmake_install.cmake")
+  include("/home/t-ptostado/Project/LinuxTracepoints/libeventheader-decode-cpp/cmake_install.cmake")
+  include("/home/t-ptostado/Project/LinuxTracepoints/libtracepoint-control-cpp/cmake_install.cmake")
+>>>>>>> b70f098 (t-ptostado)
 
 endif()
 
@@ -60,5 +72,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "/home/t-ptostado/Project/repos/LinuxTracepoints/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "/home/t-ptostado/Project/LinuxTracepoints/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> b70f098 (t-ptostado)
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

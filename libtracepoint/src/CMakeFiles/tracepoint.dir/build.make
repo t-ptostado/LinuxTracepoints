@@ -53,10 +53,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
+=======
+CMAKE_SOURCE_DIR = /home/t-ptostado/Project/LinuxTracepoints
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/t-ptostado/Project/LinuxTracepoints
+>>>>>>> b70f098 (t-ptostado)
 
 # Include any dependencies generated for this target.
 include libtracepoint/src/CMakeFiles/tracepoint.dir/depend.make
@@ -72,6 +79,7 @@ include libtracepoint/src/CMakeFiles/tracepoint.dir/flags.make
 libtracepoint/src/CMakeFiles/tracepoint.dir/tracepoint.c.o: libtracepoint/src/CMakeFiles/tracepoint.dir/flags.make
 libtracepoint/src/CMakeFiles/tracepoint.dir/tracepoint.c.o: libtracepoint/src/tracepoint.c
 libtracepoint/src/CMakeFiles/tracepoint.dir/tracepoint.c.o: libtracepoint/src/CMakeFiles/tracepoint.dir/compiler_depend.ts
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libtracepoint/src/CMakeFiles/tracepoint.dir/tracepoint.c.o"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libtracepoint/src/CMakeFiles/tracepoint.dir/tracepoint.c.o -MF CMakeFiles/tracepoint.dir/tracepoint.c.o.d -o CMakeFiles/tracepoint.dir/tracepoint.c.o -c /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/src/tracepoint.c
 
@@ -82,6 +90,18 @@ libtracepoint/src/CMakeFiles/tracepoint.dir/tracepoint.c.i: cmake_force
 libtracepoint/src/CMakeFiles/tracepoint.dir/tracepoint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tracepoint.dir/tracepoint.c.s"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/src/tracepoint.c -o CMakeFiles/tracepoint.dir/tracepoint.c.s
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object libtracepoint/src/CMakeFiles/tracepoint.dir/tracepoint.c.o"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libtracepoint/src/CMakeFiles/tracepoint.dir/tracepoint.c.o -MF CMakeFiles/tracepoint.dir/tracepoint.c.o.d -o CMakeFiles/tracepoint.dir/tracepoint.c.o -c /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/src/tracepoint.c
+
+libtracepoint/src/CMakeFiles/tracepoint.dir/tracepoint.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tracepoint.dir/tracepoint.c.i"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/src/tracepoint.c > CMakeFiles/tracepoint.dir/tracepoint.c.i
+
+libtracepoint/src/CMakeFiles/tracepoint.dir/tracepoint.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tracepoint.dir/tracepoint.c.s"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/src/tracepoint.c -o CMakeFiles/tracepoint.dir/tracepoint.c.s
+>>>>>>> b70f098 (t-ptostado)
 
 # Object files for target tracepoint
 tracepoint_OBJECTS = \
@@ -93,19 +113,33 @@ tracepoint_EXTERNAL_OBJECTS =
 lib/libtracepoint.a: libtracepoint/src/CMakeFiles/tracepoint.dir/tracepoint.c.o
 lib/libtracepoint.a: libtracepoint/src/CMakeFiles/tracepoint.dir/build.make
 lib/libtracepoint.a: libtracepoint/src/CMakeFiles/tracepoint.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library ../../lib/libtracepoint.a"
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/src && $(CMAKE_COMMAND) -P CMakeFiles/tracepoint.dir/cmake_clean_target.cmake
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tracepoint.dir/link.txt --verbose=$(VERBOSE)
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/t-ptostado/Project/LinuxTracepoints/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library ../../lib/libtracepoint.a"
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/src && $(CMAKE_COMMAND) -P CMakeFiles/tracepoint.dir/cmake_clean_target.cmake
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tracepoint.dir/link.txt --verbose=$(VERBOSE)
+>>>>>>> b70f098 (t-ptostado)
 
 # Rule to build all files generated by this target.
 libtracepoint/src/CMakeFiles/tracepoint.dir/build: lib/libtracepoint.a
 .PHONY : libtracepoint/src/CMakeFiles/tracepoint.dir/build
 
 libtracepoint/src/CMakeFiles/tracepoint.dir/clean:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/src && $(CMAKE_COMMAND) -P CMakeFiles/tracepoint.dir/cmake_clean.cmake
 .PHONY : libtracepoint/src/CMakeFiles/tracepoint.dir/clean
 
 libtracepoint/src/CMakeFiles/tracepoint.dir/depend:
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/t-ptostado/Project/repos/LinuxTracepoints /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/src /home/t-ptostado/Project/repos/LinuxTracepoints /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/src /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/src/CMakeFiles/tracepoint.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/src && $(CMAKE_COMMAND) -P CMakeFiles/tracepoint.dir/cmake_clean.cmake
+.PHONY : libtracepoint/src/CMakeFiles/tracepoint.dir/clean
+
+libtracepoint/src/CMakeFiles/tracepoint.dir/depend:
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/t-ptostado/Project/LinuxTracepoints /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/src /home/t-ptostado/Project/LinuxTracepoints /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/src /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/src/CMakeFiles/tracepoint.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint/src/CMakeFiles/tracepoint.dir/depend
 

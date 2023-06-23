@@ -57,10 +57,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/t-ptostado/Project/repos/LinuxTracepoints
+=======
+CMAKE_SOURCE_DIR = /home/t-ptostado/Project/LinuxTracepoints
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/t-ptostado/Project/LinuxTracepoints
+>>>>>>> b70f098 (t-ptostado)
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +139,24 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles /home/t-ptostado/Project/repos/LinuxTracepoints/libtracepoint/utest//CMakeFiles/progress.marks
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/utest/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/repos/LinuxTracepoints/CMakeFiles 0
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles /home/t-ptostado/Project/LinuxTracepoints/libtracepoint/utest//CMakeFiles/progress.marks
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/utest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t-ptostado/Project/LinuxTracepoints/CMakeFiles 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/utest/clean
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/utest/clean
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +165,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/utest/preinstall
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/utest/preinstall
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/utest/preinstall
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/utest/preinstall
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : depend
 
 # Convenience name for target.
 libtracepoint/utest/CMakeFiles/tpp-utest.dir/rule:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/utest/CMakeFiles/tpp-utest.dir/rule
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/utest/CMakeFiles/tpp-utest.dir/rule
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint/utest/CMakeFiles/tpp-utest.dir/rule
 
 # Convenience name for target.
@@ -172,12 +205,20 @@ tpp-utest: libtracepoint/utest/CMakeFiles/tpp-utest.dir/rule
 
 # fast build rule for target.
 tpp-utest/fast:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/utest/CMakeFiles/tpp-utest.dir/build.make libtracepoint/utest/CMakeFiles/tpp-utest.dir/build
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/utest/CMakeFiles/tpp-utest.dir/build.make libtracepoint/utest/CMakeFiles/tpp-utest.dir/build
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : tpp-utest/fast
 
 # Convenience name for target.
 libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/rule:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/rule
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/rule
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/rule
 
 # Convenience name for target.
@@ -186,7 +227,11 @@ tracepoint-utest: libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/rule
 
 # fast build rule for target.
 tracepoint-utest/fast:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/build.make libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/build
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/build.make libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/build
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : tracepoint-utest/fast
 
 tpp-utest-c.o: tpp-utest-c.c.o
@@ -194,7 +239,11 @@ tpp-utest-c.o: tpp-utest-c.c.o
 
 # target to build an object file
 tpp-utest-c.c.o:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/utest/CMakeFiles/tpp-utest.dir/build.make libtracepoint/utest/CMakeFiles/tpp-utest.dir/tpp-utest-c.c.o
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/utest/CMakeFiles/tpp-utest.dir/build.make libtracepoint/utest/CMakeFiles/tpp-utest.dir/tpp-utest-c.c.o
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : tpp-utest-c.c.o
 
 tpp-utest-c.i: tpp-utest-c.c.i
@@ -202,7 +251,11 @@ tpp-utest-c.i: tpp-utest-c.c.i
 
 # target to preprocess a source file
 tpp-utest-c.c.i:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/utest/CMakeFiles/tpp-utest.dir/build.make libtracepoint/utest/CMakeFiles/tpp-utest.dir/tpp-utest-c.c.i
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/utest/CMakeFiles/tpp-utest.dir/build.make libtracepoint/utest/CMakeFiles/tpp-utest.dir/tpp-utest-c.c.i
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : tpp-utest-c.c.i
 
 tpp-utest-c.s: tpp-utest-c.c.s
@@ -210,7 +263,11 @@ tpp-utest-c.s: tpp-utest-c.c.s
 
 # target to generate assembly for a file
 tpp-utest-c.c.s:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/utest/CMakeFiles/tpp-utest.dir/build.make libtracepoint/utest/CMakeFiles/tpp-utest.dir/tpp-utest-c.c.s
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/utest/CMakeFiles/tpp-utest.dir/build.make libtracepoint/utest/CMakeFiles/tpp-utest.dir/tpp-utest-c.c.s
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : tpp-utest-c.c.s
 
 tpp-utest-cpp.o: tpp-utest-cpp.cpp.o
@@ -218,7 +275,11 @@ tpp-utest-cpp.o: tpp-utest-cpp.cpp.o
 
 # target to build an object file
 tpp-utest-cpp.cpp.o:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/utest/CMakeFiles/tpp-utest.dir/build.make libtracepoint/utest/CMakeFiles/tpp-utest.dir/tpp-utest-cpp.cpp.o
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/utest/CMakeFiles/tpp-utest.dir/build.make libtracepoint/utest/CMakeFiles/tpp-utest.dir/tpp-utest-cpp.cpp.o
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : tpp-utest-cpp.cpp.o
 
 tpp-utest-cpp.i: tpp-utest-cpp.cpp.i
@@ -226,7 +287,11 @@ tpp-utest-cpp.i: tpp-utest-cpp.cpp.i
 
 # target to preprocess a source file
 tpp-utest-cpp.cpp.i:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/utest/CMakeFiles/tpp-utest.dir/build.make libtracepoint/utest/CMakeFiles/tpp-utest.dir/tpp-utest-cpp.cpp.i
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/utest/CMakeFiles/tpp-utest.dir/build.make libtracepoint/utest/CMakeFiles/tpp-utest.dir/tpp-utest-cpp.cpp.i
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : tpp-utest-cpp.cpp.i
 
 tpp-utest-cpp.s: tpp-utest-cpp.cpp.s
@@ -234,7 +299,11 @@ tpp-utest-cpp.s: tpp-utest-cpp.cpp.s
 
 # target to generate assembly for a file
 tpp-utest-cpp.cpp.s:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/utest/CMakeFiles/tpp-utest.dir/build.make libtracepoint/utest/CMakeFiles/tpp-utest.dir/tpp-utest-cpp.cpp.s
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/utest/CMakeFiles/tpp-utest.dir/build.make libtracepoint/utest/CMakeFiles/tpp-utest.dir/tpp-utest-cpp.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : tpp-utest-cpp.cpp.s
 
 tracepoint-utest.o: tracepoint-utest.cpp.o
@@ -242,7 +311,11 @@ tracepoint-utest.o: tracepoint-utest.cpp.o
 
 # target to build an object file
 tracepoint-utest.cpp.o:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/build.make libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.o
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/build.make libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.o
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : tracepoint-utest.cpp.o
 
 tracepoint-utest.i: tracepoint-utest.cpp.i
@@ -250,7 +323,11 @@ tracepoint-utest.i: tracepoint-utest.cpp.i
 
 # target to preprocess a source file
 tracepoint-utest.cpp.i:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/build.make libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.i
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/build.make libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.i
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : tracepoint-utest.cpp.i
 
 tracepoint-utest.s: tracepoint-utest.cpp.s
@@ -258,7 +335,11 @@ tracepoint-utest.s: tracepoint-utest.cpp.s
 
 # target to generate assembly for a file
 tracepoint-utest.cpp.s:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/build.make libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.s
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(MAKE) $(MAKESILENT) -f libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/build.make libtracepoint/utest/CMakeFiles/tracepoint-utest.dir/tracepoint-utest.cpp.s
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : tracepoint-utest.cpp.s
 
 # Help Target
@@ -295,6 +376,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /home/t-ptostado/Project/repos/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /home/t-ptostado/Project/LinuxTracepoints && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> b70f098 (t-ptostado)
 .PHONY : cmake_check_build_system
 

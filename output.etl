@@ -1,0 +1,18 @@
+Session: BC=20 BS=1000 RT=1 MODE=1
+
+EnableTracePoint(user_events:MyProviderName_L4K1) = 0
+
+DisableTracePoint(user_events:MyProviderName_L4K1) = 0
+
+EnableTracePoint(user_events:MyProviderName_L4K1) = 0
+
+WaitForWakeup() = 0, active = 1
+CPU4: tid=ab26 time=0x2822abe5c11ac raw=0x74 n=user_events:MyProviderName_L4K1
+Enum: 0, Count=1, Lost=0, Bad=0, BadBuf=0
+
+WaitForWakeup() = 0, active = 1
+CPU4: tid=ab26 time=0x2822e6f2cf9bc raw=0x74 n=user_events:MyProviderName_L4K1
+Enum: 0, Count=2, Lost=0, Bad=0, BadBuf=0
+
+WaitForWakeup() = 0, active = 1
+CPU4: tid=ab26 time=0x2822fd481bedc raw=0x74 n=user_events:MyProviderName_L4K1
